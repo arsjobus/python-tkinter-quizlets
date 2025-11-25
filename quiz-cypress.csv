@@ -1,0 +1,145 @@
+What is Cypress?,A frontend framework,An end-to-end testing tool,Database ORM,CI/CD tool,1  
+Who created Cypress?,Google,Microsoft,OpenAI,Cypress.io,3  
+Which language is primarily used in Cypress tests?,Python,Java,JavaScript,Ruby,2  
+Which test runner does Cypress use by default?,Jest,Mocha,JUnit,Pytest,1  
+How do you open the Cypress Test Runner?,npm start,npx cypress open,npx cypress run,python cypress,1  
+How do you run Cypress tests in headless mode?,npx cypress run --headless,npx cypress open --headless,npx cypress start --headless,npx run cypress --headless,0  
+What file extension is commonly used for Cypress test files?,.spec.js,.test.js,.cy.js,.js,2  
+Which command is used to visit a URL in Cypress?,cy.navigate(),cy.open(),cy.visit(),cy.load(),2  
+What does `cy.get()` do in Cypress?,Gets network request,Queries DOM element,Fetches fixture,Waits for command,1  
+What does `cy.contains()` do?,Checks URL,Searches by text,Clicks automatically,Types text,1  
+What is `cy.request()` used for?,UI interaction,Clicking elements,Sending HTTP requests,Reading file,2  
+How do you stub a network request in Cypress?,cy.stub(),cy.fake(),cy.intercept(),cy.mock(),2  
+What is a fixture in Cypress?,Database record,A test tool,Static test data file,Logging tool,2  
+Where are Cypress fixtures stored by default?,/fixtures, /data, /support, /plugins,0  
+How do you load fixture data in a test?,cy.load(),cy.fixture(),cy.get(),cy.intercept(),1  
+What is `.as()` used for after intercept?,To alias the intercept request,To define a test,To stop test,To pause test,0  
+What does `cy.wait('@alias')` do?,Waits on UI,Waits on DOM load,Waits for aliased request,Waits for timer,2  
+What is `beforeEach` in Cypress?,Runs after all tests,Runs before each test,Runs only once,Is not a hook,1  
+What is `afterEach`?,Hook after each test,Hook before each test,Used for intercepts,Not used,0  
+Which assertion library does Cypress use by default?,Jest,Chai,JUnit,Unittest,1  
+What is the default timeout for commands in Cypress (milliseconds)?,1000,2000,4000,10000,2  
+How to change timeout for a specific command?,cy.get(..., { timeout: ... }),cy.setTimeout(),cy.configTimeout(),cy.timeout(),0  
+What is the purpose of `cy.reload()`?,Reloads fixture,Reloads page,Reloads config,Reloads tests,1  
+How to navigate backward in browser in Cypress?,cy.back(),cy.go('back'),cy.prev(),cy.history('back'),1  
+How to navigate forward in Cypress?,cy.go('forward'),cy.forward(),cy.history('forward'),cy.next(),0  
+Which command types into an input?,cy.click(),cy.type(),cy.write(),cy.enter(),1  
+How to clear an input field?,cy.clear(),cy.reset(),cy.erase(),cy.delete(),0  
+How to assert an element is visible?,.should('be.visible'),.should('visible'),.assertVisible(),.expectVisible(),0  
+How to assert an element contains text?,.should('contain', ...),.shouldContain(...),.hasText(...),.expect(...),0  
+How to alias a DOM element?,cy.alias(),cy.as(),cy.get(...).as(...),cy.get(...).alias(...),2  
+What does `cy.wrap()` do?,Wraps DOM node in chain,Wraps string,Wraps fixture,Wraps config,0  
+How to pause test execution?,cy.pause(),cy.wait(100000),cy.halt(),cy.stop(),0  
+How to debug test with Cypress?,cy.log(),cy.debug(),console.log(),cy.print(),1  
+What is `cy.screenshot()` for?,Taking a screenshot,Logging,Stubbing,Waiting,0  
+How to check URL contains a path?,cy.url().should('include', ...),cy.path().should('have', ...),cy.route().should('contain', ...),cy.visit().should('include', ...),0  
+What is `cy.intercept()` used for?,To mock HTTP requests,To pause test,To change URL,To take screenshot,0  
+What is the difference between `cy.request()` and `cy.intercept()`?,No difference,`cy.request` is for UI, `intercept` for API,`cy.request` sends real HTTP, `intercept` mocks,they are the same,2  
+How to stub a POST request?,cy.intercept('POST', ...),cy.request('POST', ...),cy.stub('POST', ...),cy.post(),0  
+How to check status code of intercepted request?,cy.intercept().its('status'),cy.wait('@alias').its('response.statusCode'),cy.wait().status(),cy.request().status,1  
+How to use environment variables in Cypress?,Cypress.env(),process.env,cy.env(),cy.config('env'),0  
+Where are Cypress environment variables defined?,cypress.json / cypress.config.js,package.json,in test file,Cypress.env file,0  
+How to handle uncaught exceptions in Cypress?,cy.on('uncaught:exception'),window.onerror,try catch,cy.catch(),0  
+What hook runs once before all tests in a file?,before,after,beforeEach,afterEach,0  
+What hook runs once after all tests in a file?,after,before,beforeEach,afterEach,0  
+What is the purpose of custom commands in Cypress?,To define reusable commands,To define new API,To change test runner,To set timeouts,0  
+Where do you define custom commands?,cypress/support/commands.js,cypress/commands.js,cypress/plugins/index.js,cypress/tests.js,0  
+What is `cy.task()` for?,Run code in browser,Run code in Node,Run UI,Run CLI commands,1  
+How to use `cy.clock()`?,Control time in app,Change color,Change viewport,Control test runner,0  
+What does `cy.tick()` do?,Advance clock,Go back in time,Change URL,Pause test,0  
+Why use `cy.clock()` with `cy.tick()`?,To mock time-dependent behavior,To wait longer,To slow test,To randomize time,0  
+How do you write to a file in Cypress?,cy.writeFile(),cy.saveFile(),cy.create(),cy.download(),0  
+How do you read from a file in Cypress?,cy.readFile(),cy.openFile(),cy.load(),cy.getFile(),0  
+How to test file upload in Cypress?,cy.upload(),cy.selectFile(),cy.attachFile(),cy.sendFile(),1  
+Which plugin helps for file upload in Cypress?,cypress-file-upload,upload-plugin,cy-upload,cy-file,0  
+How to handle browser confirm dialog?,cy.on('window:confirm', …),cy.confirm(),cy.dialog(),cy.alert(),0  
+How to cancel a confirm dialog?,cy.on('window:confirm', () => false),cy.on('window:alert'),cy.confirm(false),cy.dismiss(),0  
+How to assert an attribute of an element?,.should('have.attr', ...),.shouldAttr(...),.expectAttr(...),.has(),0  
+What is the difference between `.then()` and `.should()`?,No difference,then retries, should executes once, should retries until passes, then executes once,2  
+How to chain multiple network calls?,cy.request(...).then(...).then(...),cy.intercept(...).then(...),cy.chain(...),cy.call(...),0  
+How to test SPA navigation with Cypress?,Use cy.visit(),cy.go(),cy.route(),cy.intercept(),1  
+How to set viewport size in Cypress?,cy.viewport(width, height),cy.setSize(),cy.resize(),cy.screen(),0  
+How to test responsive design?,Using cy.viewport,Using cy.resize,Using cy.screen,Using cy.window,0  
+What assertion to check number of elements?,.should('have.length', ...),.should('length', ...),.expectLength(),.assertCount(),0  
+How to spy on a function in Cypress?,cy.spy(),cy.stub(),cy.intercept(),cy.on(),0  
+Difference between `cy.spy()` and `cy.stub()`?,spy just spies, stub overrides, stub just spies, they are same, spy overrides,0  
+How to test GraphQL requests in Cypress?,Use cy.intercept(),Use cy.request(),Use cy.graphql(),Use cy.gql(),0  
+What is `Cypress.config()` used for?,Get/set config values,Run commands,Mock API,Open runner,0  
+How to preserve cookies between tests?,cy.setCookie(),cy.preserve(),Cypress.Cookies.preserveOnce(),cy.saveCookies(),2  
+How to clear cookies before each test?,cy.clearCookies(),cy.resetCookies(),cy.deleteCookies(),cy.removeCookies(),0  
+How to debug with browser devtools in Cypress?,Use Cypress Test Runner,Use cy.debug(),Use browser console,Use cy.log(),0  
+What is a limitation of Cypress?,No multiple browser tabs,No API testing,No assertions,No CI support,0  
+Can Cypress test mobile native apps?,Yes,No,Only Android,Only iOS,1  
+How to integrate Cypress with CI/CD?,Use GitHub Actions,Use Jenkins,Use GitLab CI,All of the above,3  
+What reporter can you use with Cypress?,Mochawesome,JUnit,Spec,All of these,3  
+How to generate test report?,Use reporter plugin,npx cypress run,reports folder,cy.report(),0  
+How to parallelize tests?,Use Cypress Dashboard,Use multiple specs,Use CI splitting,All of above,3  
+How to run a single spec file?,npx cypress run --spec 'file',npx cypress open --spec,file by itself,Write only 1 test,0  
+What is `cy.session()` for?,Manage cookies,Manage login session,Set viewport,Stub API,1  
+How to stub a WebSocket in Cypress?,cy.intercept('ws://…'),cy.ws(),cy.mockWS(),cy.websocket(),0  
+How to test file downloads in Cypress?,cy.download(),cy.request(),cy.readFile(),cy.task(),1  
+What is `cy.clearLocalStorage()` used for?,Clears cache,Clears local storage,Clears cookies,Closes window,1  
+How to test localStorage items?,cy.window().its('localStorage'),cy.localStorage(),cy.getStorage(),cy.read(),0  
+How to assert navigation to page?,cy.url().should('eq', ...),cy.location(),cy.page(),cy.navigate(),0  
+What is the difference between `cy.url()` and `cy.location()`?,url returns string, location returns object,they are same, no difference,0  
+How to handle iframe in Cypress?,Use plugin such as `cypress-iframe`,Use cy.frame(),Use cy.get('iframe') only,Not supported,0  
+How to take video of test run?,Enable videos in config,cy.video(),cy.record(),cy.screenshot(),0  
+What is `.debug()` in Cypress?,Pauses test,Logs message,Prints debug info,Stops test,2  
+Why use page object model in Cypress?,Better maintainability,Simpler tests,Reusable code,All of the above,3  
+What is `cypress.config.js`?,Config file for Cypress,A test file,Support file,Plugin file,0  
+How to handle rate‑limiting API in tests?,Use intercept to stub,Use cy.request only,Use real API,Skip test,0  
+How to test delayed responses?,Use cy.intercept with delay option,Use cy.wait only,Use cy.timeout,Use real API,0  
+How to mock multiple responses for same route?,Use intercept with function callback,Use multiple requests,Use cy.request,Use separate tests,0  
+What is “automatic waiting” in Cypress?,Cypress waits for UI,Network,Commands automatically,No waiting needed,Automatic after test,1  
+How to test cookies persistence?,cy.getCookie(),cy.getCookies(),cy.cookie(),cy.get().cookie(),1  
+How to handle flaky tests in Cypress?,Retry logic,Stubbing unstable API,Use intercept,All of the above,3  
+How to run Cypress tests in Firefox?,npx cypress run --browser firefox,npx cypress open --browser firefox,Install plugin,Not supported,0  
+Which command is used to get elements by id?,cy.get('#id'),cy.find('#id'),cy.contains('id'),cy.query('#id'),0  
+How to scroll an element into view?,cy.get(...).scrollIntoView(),cy.scroll(),cy.scrollTo(),cy.moveTo(),0  
+What is the role of `cypress/support/e2e.js` or `commands.js`?,Global hooks and commands,Spec files,Fixture loading,Plugins,0  
+Why is Cypress said to be fast?,Runs in same run‑loop as app,Parallel by default,Uses low‑level driver,No waiting,0  
+How to override configuration per spec?,Use configuration object in test,Use Cypress.config(),Use env var only,Not possible,0  
+How to use tags or grouping in Cypress?,Not directly supported,Use custom logic/plugins,Use Mocha grep,Use Jest tags,1  
+How to handle slow network in tests?,Stub with intercept,Use cy.wait,Ignore,Use real network,0  
+What's the purpose of `cy.clearCookies()`?,Clear logged-in state,Reset local storage,Reset viewport,Stop test,0  
+How to stub an API only once?,cy.intercept with times:1,cy.once(),cy.spy(),cy.onceIntercept(),0  
+What does `force: true` do in click(),,cy.get(...).click({ force: true })?,It clicks hidden element,Forces double click,Stops test,Fails test,0  
+How do you test retry‑ability of assertions?,Use .should(),Use .then(),Use cy.retry(),Use cy.assert(),0  
+What is the Cypress Dashboard?,CI service,Cloud service for recording test runs,Reporting tool,Plugin,1  
+How to group tests for parallelization?,By specs,By tags,By folders,By test name,0  
+What is the purpose of `experimentalSessionAndOrigin` config?,Allow cross‑origin testing,Enable sessions,Enable video,Enable screenshot,0  
+How to validate JSON response from API?,cy.request().its('body').should('deep.equal', ...),cy.intercept().should(...),cy.readFile(),cy.get(),0  
+What is `failOnStatusCode` in `cy.request()`?,Stop on non‑200 status,Ignore errors,Always succeed,Retry,0  
+How to test HTTP headers from API response?,cy.request().its('headers').should('have.property', …),cy.intercept().its(… ),cy.request().headers,cy.request().header,0  
+How to run Cypress in Docker?,Use official Cypress Docker image,Use third‑party Docker,Build your own,Not supported,0  
+How to inject cookies before visit(),cy.setCookie() then cy.visit(),cy.visit() then cy.setCookie(),cy.cookieInject(),cy.injectCookie(),0  
+What is the `pageLoadTimeout` config for?,Timeout for page load,Timeout for commands,Timeout for requests,Timeout for tests,0  
+How to mock a websocket response?,Use cy.intercept('ws://...', …),Use plugin,Not possible,Use cy.request(),0  
+How to test error handling in UI?,Stub API to error,Use cy.throw(),Use cy.error(),Use real error,0  
+How to handle JS alerts?,cy.on('window:alert', …),cy.alert(),cy.confirm(),cy.dialog(),0  
+How to test local storage clearing?,cy.clearLocalStorage(),cy.clearStorage(),cy.resetStorage(),cy.deleteStorage(),0  
+How to assert CSS property?,.should('have.css', 'color', 'red'),.assertCSS(),.expectCSS(),.checkCSS(),0  
+What is `cy.exec()` used for?,Run system commands,Run HTTP request,Run UI commands,Run tests,0  
+How to run a script before all tests in all spec files?,Use support file before hook,Use plugin,Use commands.js,Use fixtures,0  
+How to generate a random test data in Cypress?,Use faker.js,Use chance.js,Use custom util,All of the above,3  
+How to configure baseUrl in Cypress?,In cypress.config.js,In package.json,In test file,Not configurable,0  
+How to handle third‑party scripts loading slowly?,Stub,Wait,Ignore,Use real script,1  
+How to mock browser timeouts?,Use cy.clock(),Use cy.timeout(),Use cy.wait(),Use cy.retry(),0  
+How to test client‑side routing?,cy.visit(),cy.go(),cy.intercept(),cy.route(),0  
+How to check if element is disabled?,.should('be.disabled'),.should('disabled'),.assertDisabled(),.expectDisabled(),0  
+How to check element’s value attribute?,.should('have.value', …),.should('value', …),.expectValue(),.assertValue(),0  
+How to configure viewport per test?,cy.viewport() inside test,Use config,Use env,Not possible,0  
+How to test query parameters in URL?,cy.url().should('include', '?param='),cy.location().search(),cy.visit(),cy.queryParams(),0  
+How to stub a delay in response?,cy.intercept(..., { delayMs: … }),cy.wait(),cy.request(),cy.delay(),0  
+What is `chromeWebSecurity` config in Cypress?,Enable/disallow cross origin,use security settings,Ignore HTTPS,Not used,0  
+How to write assertions for array in response?,.should('have.length', …),.should('deep.equal', …),.expect().to.have.lengthOf(),All of the above,3  
+How to mock multiple query parameters?,Use intercept with function,Use intercept with object,Use request,Not possible,0  
+What is `experimentalModifyObstructiveThirdPartyCode` for?,Allow 3rd‑party script modification,Disable 3rd‑party,Not related,Not used,0  
+How to test with different environments (dev, qa, prod)?,Use Cypress.env or config files,Use different branches,Use different CI jobs,All of above,0  
+How to stub window.location.href?,Use cy.stub(window, 'location'),Use cy.intercept,Use cy.visit,Not possible,0  
+How to handle flaky network test?,Stub,Retry,Use intercept with stable data,All of the above,3  
+How to limit test retries in CI?,Use retry config in cypress.config.js,Use loop,Not possible,Use cy.wait,0  
+How to take conditional screenshot on failure?,Use afterEach hook + cy.screenshot on failure,Use cy.on,Use plugin,Not possible,0  
+How to mock OAuth login flow?,Intercept tokens,Stub login API,Use cy.session,All of the above,3  
+How to test performance metrics in Cypress?,Not supported,Use custom command + cy.task,Use cy.perf(),Use plugin,1  
+How to clear cookies and localStorage between tests?,Use afterEach with cy.clearCookies + cy.clearLocalStorage,Use beforeEach,Use cy.reset(),Not necessary,0  
