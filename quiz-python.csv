@@ -1,0 +1,95 @@
+Which version introduced f-strings?,Python 2.7,Python 3.6,Python 3.8,Python 3.10,1
+What is the default string type in Python 3?,bytes,unicode,str,utf8,2
+Which division operator performs true division?,/,//,%,*,0
+What does print(type(3)) output?,int,Integer,long,number,0
+Which keyword defines an asynchronous function?,async def,def async,await def,async function,0
+Which function returns an iterator?,iter(),next(),iterator(),yield(),0
+What is the result of 3//2?,1,1.5,2,0,0
+Which built-in converts bytes to string?,encode(),bytes(),str(),decode(),2
+What is the type of range(5)?,list,range,iterator,tuple,1
+Which module is used for type hints?,typing,hints,annotations,types,0
+Which operator unpacks iterables?,*,**,@@,@,0
+Which operator unpacks dictionaries?,*,**,%%,&&,1
+Which function returns an object's identity?,id(),is(),==,ident(),0
+Which exception is raised for division by zero?,ValueError,TypeError,ZeroDivisionError,MathError,2
+Which built-in produces a dict view?,view(),dictview(),dict(),items(),3
+Which module provides decimal arithmetic?,math,decimal,fractions,calc,1
+What is the output type of input()?,int,str,bytes,list,1
+Which built-in returns reversed iterator?,reverse(),reversed(),invert(),backwards(),1
+Which method strips whitespace?,trim(),strip(),clean(),cut(),1
+Which loops support else blocks?,for,while,both,none,2
+Which function returns the length of an object?,count(),size(),len(),length(),2
+What is bool([])?,True,False,Error,None,1
+Which module handles JSON?,serialization,json,jsonlib,jtool,1
+Which type is immutable?,list,set,dict,tuple,3
+Which keyword defines functions?,function,def,fn,lambda,1
+Which dunder gives official string repr?,__str__,__print__,__repr__,__desc__,2
+Which keyword handles exceptions?,try,except,error,catch,1
+Which clause guarantees cleanup?,finally,cleanup,end,close,0
+Which module provides OS access?,os,sys,platform,io,0
+Which module handles CLI args?,argparse,sys,cli,args,0
+Which method removes list’s last item?,pop(),remove(),shift(),pull(),0
+Which method appends to list?,push(),append(),insert(),add(),1
+Which class represents threads?,Thread,Process,Job,Worker,0
+Which module handles multithreading?,threads,threading,multiprocessing,asyncio,1
+Which module handles multiprocessing?,subprocess,asyncio,threading,multiprocessing,3
+Which keyword creates classes?,object,class,struct,new,1
+Which method runs on construction?,__start__,__create__,__init__,__call__,2
+Which module provides randomness?,random,rand,math,entropy,0
+Which module handles async event loop?,threading,asyncio,multiprocessing,selectors,1
+What does open('file','r') do?,write,read,append,create binary,1
+Default encoding in Python 3?,ASCII,UTF-8,Latin-1,Unicode-16,1
+Which function returns absolute value?,fabs(),abs(),absolute(),mod(),1
+Which function rounds numbers?,floor(),round(),ceil(),approx(),1
+Which built-in sums values?,sum(),total(),add(),reduce(),0
+Which module has math functions?,math,numpy,calc,decimal,0
+Which type is mutable?,tuple,str,int,list,3
+Which keyword indicates inheritance?,from,extends,class,super,0
+Convert string to integer?,number(),int(),parseInt(),convert(),1
+Which operator checks membership?,contains,in,inside,within,1
+Which operator checks identity?,id,is,==,===,1
+What does list(range(3)) produce?,[0,1],[ ],[0,1,2],[1,2,3],2
+What is None?,0,False,Null object,"",2
+Which error for invalid int conversion?,TypeError,ValueError,CastError,InvalidIntError,1
+Which list method sorts in place?,sorted(),sort(),order(),arrange(),1
+Which function returns sorted copy?,sort(),order(),sorted(),arrange(),2
+Which module handles timestamps?,clock,datetime,date,time,1
+Which statement terminates loops?,stop,quit,break,exit,2
+Which statement skips iteration?,stop,skip,continue,escape,2
+Which keyword creates generator?,generate,yield,produce,yieldfrom,1
+Which function returns object type?,type(),typeof(),kind(),class(),0
+Decorator for abstract methods?,@abstract,@abstractmethod,@abs,@abstractfunc,1
+Built-in for attributes of object?,get(),dir(),inspect(),keys(),1
+Which module yields interpreter info?,info,python,sys,os,2
+What does enumerate() return?,iterator,list,index only,keys,0
+Which function returns max value?,maximum(),max(),top(),largest(),1
+Which module provides debugger?,debug,trace,logging,pdb,3
+Which statement defines context mgr?,with,use,context,manage,0
+Which method runs on deletion?,__destroy__,__del__,__delete__,__end__,1
+Which operator concatenates strings?,*,+,%,&,1
+Which built-in returns min value?,min(),minimum(),lowest(),compare(),0
+Which module serializes objects?,pickle,json,marshal,serialize,0
+Which library handles numeric arrays?,pandas,numpy,math,dataclasses,1
+Which module parses URLs?,urlparse,urllib.parse,requests,neturl,1
+Which error occurs for missing dict key?,IndexError,KeyError,LookupError,MissingKey,1
+Which module handles regex?,regex,re,match,pattern,1
+Which Python version removed print statement?,3.0,2.7,3.3,3.6,0
+Which library provides DataFrames?,numpy,pandas,polars,matplotlib,1
+Convert iterable to list?,tolist(),list(),make_list(),aslist(),1
+Create a set?,newset(),set(),{},make(),1
+Which module reads CSV?,csv,files,parser,table,0
+Function returning next iterator item?,next(),iter(),get(),advance(),0
+String lowercase method?,lower(),downcase(),tolower(),small(),0
+Module supporting hashing?,hashlib,crypto,encrypt,hash,0
+Keyword to create modules?,module,def,class,No keyword needed,3
+Module for filesystem paths?,pathlib,os.path,filesys,dirutil,0
+Syntax for type returns?,annotate,type,->,::,2
+Which method merges dicts?,merge(),join(),update(),combine(),2
+HTTP client module?,http.client,net,httpcore,httplib,0
+Module for concurrent futures?,asyncio,futures,concurrent.futures,threading,2
+Floor division operator,//,/,%,**,0
+Statistics module?,stats,statistics,mathstat,datatools,1
+Check subclass relation?,issubclass(),isinstance(),subclassof(),childof(),0
+Built-in to get hash?,hash(),gethash(),digest(),hashed(),0
+Module for AST tools?,parser,ast,syntax,tree,1
+Feature introduced in Python 3.10?,match/case,type hints,asyncio,f-strings,0

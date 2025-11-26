@@ -65,7 +65,6 @@ How to spy on a function in Cypress?,cy.spy(),cy.stub(),cy.intercept(),cy.on(),0
 Difference between `cy.spy()` and `cy.stub()`?,spy just spies, stub overrides, stub just spies, they are same, spy overrides,0  
 How to test GraphQL requests in Cypress?,Use cy.intercept(),Use cy.request(),Use cy.graphql(),Use cy.gql(),0  
 What is `Cypress.config()` used for?,Get/set config values,Run commands,Mock API,Open runner,0  
-How to preserve cookies between tests?,cy.setCookie(),cy.preserve(),Cypress.Cookies.preserveOnce(),cy.saveCookies(),2  
 How to clear cookies before each test?,cy.clearCookies(),cy.resetCookies(),cy.deleteCookies(),cy.removeCookies(),0  
 How to debug with browser devtools in Cypress?,Use Cypress Test Runner,Use cy.debug(),Use browser console,Use cy.log(),0  
 What is a limitation of Cypress?,No multiple browser tabs,No API testing,No assertions,No CI support,0  
