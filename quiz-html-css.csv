@@ -1,95 +1,103 @@
-Which version introduced f-strings?,Python 2.7,Python 3.6,Python 3.8,Python 3.10,2
-What is the default string type in Python 3?,bytes,unicode,str,utf8,3
-Which division operator performs true division?,/,//,%,*,1
-What does print(type(3)) output in Python 3?,int,Integer,long,number,1
-Which keyword defines an asynchronous function?,async def,def async,await def,async function,1
-Which function returns an iterator in Python 3?,iter(),next(),iterator(),yield(),1
-What is the output of 3//2 in Python 3?,1,1.5,2,0,1
-Which built-in converts bytes to string?,encode(),bytes(),str(),decode(),3
-What is the type of range(5) in Python 3?,list,range,iterator,tuple,2
-Which module is used for type hints?,typing,hints,annotations,types,1
-Which operator unpacks iterables?,*,**,@@,@,1
-Which operator unpacks dictionaries?,*,**,%%,&&,2
-Which function checks object identity?,id(),is(),==,ident(),1
-Which exception is raised for division by zero?,ValueError,TypeError,ZeroDivisionError,MathError,3
-Which built-in creates a dictionary view?,view(),dictview(),dict(),items(),4
-Which module provides high-precision decimals?,math,decimal,fractions,calc,2
-What is the output type of input()?,int,str,bytes,list,2
-Which built-in returns a reversed iterator?,reverse(),reversed(),invert(),backwards(),2
-Which string method removes surrounding whitespace?,trim(),strip(),clean(),cut(),2
-Which loop supports an optional else block?,for,while,both for and while,none,3
-Which function returns the length of an object?,count(),size(),len(),length(),3
-What is the boolean value of empty list [],True,False,Error,None,2
-Which module contains JSON support?,serialization,json,jsonlib,jtool,2
-Which of these is immutable?,list,set,dict,tuple,4
-Which statement defines a function?,function,def,fn,lambda,2
-Which special method returns an official representation?,__str__,__print__,__repr__,__desc__,3
-Which keyword handles exceptions?,try,except,error,catch,2
-Which statement guarantees cleanup actions?,finally,cleanup,end,close,1
-Which module contains OS-level functionality?,os,sys,platform,io,1
-Which module handles command-line args?,argparse,sys,cli,args,1
-Which method removes last list element?,pop(),remove(),shift(),pull(),1
-Which method adds an element to a list?,push(),append(),insert(),add(),2
-Which class represents threads?,Thread,Process,Job,Worker,1
-Which module handles multithreading?,threads,threading,multiprocessing,asyncio,2
-Which module handles multiprocessing?,subprocess,asyncio,threading,multiprocessing,4
-Which keyword creates a class?,object,class,struct,new,2
-Which method runs when object is instantiated?,__start__,__create__,__init__,__call__,3
-Which module provides randomness?,random,rand,math,entropy,1
-Which module is used for async event loop?,threading,asyncio,multiprocessing,selectors,2
-What does open('file','r') do?,writes file,reads file,appends file,creates binary file,2
-Which encoding is default in Python 3?,ASCII,UTF-8,Latin-1,Unicode-16,2
-Which function returns absolute value?,fabs(),abs(),absolute(),mod(),2
-Which function rounds numbers?,floor(),round(),ceil(),approx(),2
-Which built-in aggregates numbers?,sum(),total(),add(),reduce(),1
-Which module includes mathematical functions?,math,numpy,calc,decimal,1
-Which is a mutable data type?,tuple,str,int,list,4
-Which keyword is used for inheritance?,from,extends,class,super,1
-Which function converts to an integer?,number(),int(),parseInt(),convert(),2
-Which operator checks membership?,contains,in,inside,within,2
-Which operator checks identity?,id,is,==,===,2
-What does list(range(3)) return?,[0,1],[],[0,1,2],[1,2,3],3
-What is None in Python 3?,0,False,Null value object,Empty string,3
-Which exception handles invalid integer casting?,TypeError,ValueError,CastError,InvalidIntError,2
-Which method sorts a list in place?,sorted(),sort(),order(),arrange(),2
-Which function returns a sorted copy?,sort(),order(),sorted(),arrange(),3
-Which module handles date/time?,clock,datetime,date,time,2
-Which instruction terminates a loop?,stop,quit,break,exit,3
-Which instruction skips loop iteration?,stop,skip,continue,escape,3
-Which keyword creates a generator?,generate,yield,produce,yieldfrom,2
-Which function returns type of object?,type(),typeof(),kind(),class(),1
-Which decorator defines abstract methods?,@abstract,@abstractmethod,@abs,@abstractfunc,2
-Which built-in lets you inspect attributes?,get(),dir(),inspect(),keys(),2
-Which module exposes Python interpreter info?,info,python,sys,os,3
-What does enumerate() return?,iterator of tuples,list of ints,list of keys,index only,1
-Which function gives max value?,maximum(),max(),top(),largest(),2
-Which module provides debugging tools?,debug,trace,logging,pdb,4
-Which statement defines a context manager?,with,use,context,manage,1
-Which method is executed on object deletion?,__destroy__,__del__,__delete__,__end__,2
-Which operator concatenates strings?,*,+,%,&,2
-Which built-in gets minimum value?,min(),minimum(),lowest(),compare(),1
-Which module serializes Python objects?,pickle,json,marshal,serialize,1
-Which library handles arrays efficiently?,pandas,numpy,math,dataclasses,2
-Which module handles URL parsing?,urlparse,urllib.parse,requests,neturl,2
-Which exception occurs when key not found?,IndexError,KeyError,LookupError,MissingKey,2
-Which module handles regular expressions?,regex,re,match,pattern,2
-Which Python version removed print statement?,3.0,2.7,3.3,3.6,1
-Which library provides dataframes?,numpy,pandas,polars,matplotlib,2
-Which built-in converts iterable to list?,tolist(),list(),make_list(),aslist(),2
-Which built-in creates a set?,newset(),set(),{},make(),2
-Which module reads CSV files?,csv,files,parser,table,1
-Which function returns next item from iterator?,next(),iter(),get(),advance(),1
-Which method converts string to lowercase?,lower(),downcase(),tolower(),small(),1
-Which module supports hashing?,hashlib,crypto,encrypt,hash,1
-Which keyword defines a module?,module,def,class,No keyword needed,4
-Which module contains file path utilities?,pathlib,os.path,filesys,dirutil,1
-Which statement annotates types?,annotate,type,->,::,3
-Which function merges dictionaries?,merge(),join(),update(),combine(),3
-Which module provides HTTP client tools?,http.client,net,httpcore,httplib,1
-Which module manages concurrent futures?,asyncio,futures,concurrent.futures,threading,3
-Which operator is floor division,//,/,%,**,1
-Which module supports statistics?,stats,statistics,mathstat,datatools,2
-Which function checks subclass relationships?,issubclass(),isinstance(),subclassof(),childof(),1
-Which built-in returns hash of object?,hash(),gethash(),digest(),hashed(),1
-Which module helps serialize Python AST?,parser,ast,syntax,tree,2
-Which feature was added in Python 3.10?,match/case,type hints,asyncio,f-strings,1
+What does HTML stand for?,Hyper Text Markup Language,High Text Markup Language,Hyped Text Makeup Language,Hyperlinks and Text Markup Language,0
+Which tag is used for the largest heading?,<h1>,<head>,<h6>,<heading>,0
+Which HTML attribute is used to define inline styles?,class,style,id,inline,1
+How do you create a hyperlink in HTML?,<link>,<a href="url">,<hyperlink>,<url>,1
+Which element is used for an unordered list?,<ul>,<ol>,<li>,<list>,0
+What is the correct HTML element for inserting a line break?,<br>,<lb>,<break>,<line>,0
+Which HTML tag is used to define an internal style sheet?,<css>,<style>,<script>,<link>,1
+What does the <em> tag do?,Emphasizes text,Defines a paragraph,Displays italic text,Encodes special characters,0
+Which tag is used to display a picture in HTML?,<image>,<pic>,<img>,<picture>,2
+What is the correct HTML element for playing video files?,<video>,<media>,<movie>,<clip>,0
+Which attribute specifies an alternate text for an image?,alt,title,src,href,0
+What is the correct way to create a checkbox in HTML?,<input type="checkbox">,<checkbox>,<input checkbox>,<check>,0
+Which tag is used to create a numbered list?,<ol>,<ul>,<li>,<list>,0
+What does the <strong> tag do?,Bold text,Italic text,Underline text,Highlight text,0
+Which attribute is used to link an external CSS file?,href,src,link,rel,0
+What is the default display value of a <div> element?,block,inline,inline-block,none,0
+Which tag is used to define a table row?,<tr>,<td>,<th>,<table>,0
+Which tag is used to define a table header?,<th>,<tr>,<td>,<header>,0
+Which HTML element is used to define the body of the document?,<body>,<head>,<html>,<main>,0
+Which tag is used to define a paragraph?,<p>,<para>,<text>,<paragraph>,0
+Which tag is used to define a list item?,<li>,<ul>,<ol>,<list>,0
+Which attribute specifies the destination URL in an <a> tag?,href,link,url,src,0
+What is the correct HTML element for inserting a horizontal line?,<hr>,<line>,<break>,<hl>,0
+Which HTML element is used for the largest heading level?,<h1>,<h2>,<h3>,<h6>,0
+Which tag is used to define a dropdown list?,<select>,<input>,<option>,<dropdown>,0
+Which tag is used to define a text area?,<textarea>,<input type="text">,<input>,<text>,0
+Which attribute defines the placeholder text in an input field?,placeholder,value,alt,text,0
+Which tag is used to define a comment in HTML?,<!-- comment -->,// comment,/* comment */,<comment>,0
+Which tag is used to define the title of an HTML document?,<title>,<head>,<h1>,<meta>,0
+Which CSS property controls the text color?,color,background-color,font-color,text-color,0
+Which CSS property controls the font size?,font-size,text-size,letter-size,font-style,0
+Which CSS property is used to change the background color?,background-color,color,bgcolor,background,0
+Which CSS property is used to change the text alignment?,text-align,font-align,align,text-position,0
+Which CSS property adds space inside an element’s border?,padding,margin,spacing,border-spacing,0
+Which CSS property adds space outside an element’s border?,margin,padding,spacing,border-spacing,0
+Which CSS property changes the font family?,font-family,font-style,font-weight,text-style,0
+Which CSS property sets the boldness of text?,font-weight,font-style,font-size,font-bold,0
+Which CSS property adds a border around an element?,border,border-style,outline,box,0
+Which CSS property removes the underline from a link?,text-decoration,font-decoration,decoration,underline,0
+Which CSS selector targets all elements?,*,.,#,all,0
+Which CSS selector targets elements with a specific class?,.,#,*,class,0
+Which CSS selector targets an element with a specific ID?,#,.,*,id,0
+Which CSS selector targets all <p> elements?,p,.p,#p,p-element,0
+Which CSS property makes text italic?,font-style,font-weight,text-style,italicize,0
+Which CSS property controls the visibility of an element?,visibility,display,opacity,hidden,0
+Which CSS property is used to float an element?,float,position,clear,align,0
+Which CSS property sets the width of an element?,width,height,size,dimension,0
+Which CSS property sets the height of an element?,height,width,size,dimension,0
+Which CSS property changes the type of cursor when hovering over an element?,cursor,hover-pointer,pointer,mouse,0
+Which CSS property sets the stacking order of elements?,z-index,stack-index,layer-index,order,0
+Which CSS property is used to apply a shadow to text?,text-shadow,box-shadow,shadow,text-glow,0
+Which CSS property adds rounded corners to elements?,border-radius,border-corner,corner-radius,rounded,0
+Which CSS property sets the background image of an element?,background-image,image,background,url,0
+Which CSS property specifies how a background image is repeated?,background-repeat,image-repeat,repeat,repeat-style,0
+Which CSS property sets the position of a background image?,background-position,background-align,background-offset,image-position,0
+Which CSS property sets the opacity of an element?,opacity,transparency,alpha,filter,0
+Which CSS property defines the spacing between letters?,letter-spacing,word-spacing,text-spacing,spacing,0
+Which CSS property defines the spacing between words?,word-spacing,letter-spacing,text-spacing,spacing,0
+Which CSS property controls the order of flex items?,order,flex-order,position,z-index,0
+Which CSS property sets the flex container direction?,flex-direction,flex-order,flex-wrap,flex-align,0
+Which CSS property wraps flex items into multiple lines?,flex-wrap,flex-flow,wrap,flex-direction,0
+Which CSS property controls the alignment of items along the main axis in flexbox?,justify-content,align-items,align-content,flex-align,0
+Which CSS property controls the alignment of items along the cross axis in flexbox?,align-items,justify-content,align-content,flex-align,0
+Which CSS property sets the font weight?,font-weight,font-style,font-size,font-family,0
+Which CSS property sets the line height?,line-height,spacing,line-size,leading,0
+Which CSS property sets the minimum width of an element?,min-width,width,maximum-width,element-width,0
+Which CSS property sets the maximum width of an element?,max-width,min-width,width,element-width,0
+Which CSS property sets the minimum height of an element?,min-height,height,max-height,element-height,0
+Which CSS property sets the maximum height of an element?,max-height,min-height,height,element-height,0
+Which HTML element defines the navigation links?,<nav>,<header>,<footer>,<section>,0
+Which HTML element defines the footer of a document?,<footer>,<nav>,<section>,<aside>,0
+Which HTML element defines a section in a document?,<section>,<div>,<article>,<aside>,0
+Which HTML element defines a sidebar?,<aside>,<section>,<nav>,<article>,0
+Which HTML element defines an article?,<article>,<section>,<div>,<aside>,0
+Which CSS property sets the display type of an element?,display,position,type,visible,0
+Which CSS property sets absolute positioning?,position,top,left,bottom,0
+Which CSS property sets the top position of an element?,top,margin-top,padding-top,position,0
+Which CSS property sets the left position of an element?,left,margin-left,padding-left,position,0
+Which CSS property sets the right position of an element?,right,margin-right,padding-right,position,0
+Which CSS property sets the bottom position of an element?,bottom,margin-bottom,padding-bottom,position,0
+Which CSS property specifies the type of list marker?,list-style-type,list-marker-type,marker-type,list-type,0
+Which CSS property removes bullets from a list?,list-style:none,bullet:none,list-type:none,list-style-type:none,0
+Which CSS property controls the gap between flex items?,gap,spacing,margin,padding,0
+Which CSS property controls the alignment of text within an element?,text-align,vertical-align,align,text-position,0
+Which CSS property sets the background clipping area?,background-clip,clip,clip-area,background-area,0
+Which CSS property specifies whether an element can be scrolled?,overflow,scroll,scrollable,overflow-style,0
+Which CSS property defines how an element wraps content?,white-space,word-wrap,content-wrap,wrap,0
+Which CSS property sets the position relative to its normal position?,position:relative,position:absolute,position:fixed,position:sticky,0
+Which CSS property fixes an element relative to the viewport?,position:fixed,position:sticky,position:absolute,position:relative,0
+Which CSS property makes an element sticky?,position:sticky,position:fixed,position:absolute,position:relative,0
+Which CSS property is used for responsive text size?,font-size,viewport-font-size,rem,em,0
+Which CSS property sets the box model behavior?,box-sizing,box-model,box-style,box-behavior,0
+Which CSS property sets the background shorthand property?,background,background-style,background-all,background-shorthand,0
+Which CSS property is used to add transitions?,transition,animation,transform,animate,0
+Which CSS property specifies the animation duration?,animation-duration,animation-time,animation-speed,animation-delay,0
+Which CSS property specifies the animation name?,animation-name,animation-id,animation-title,animation-key,0
+Which CSS property specifies the transform origin?,transform-origin,transform-start,transform-position,transform-anchor,0
+Which CSS property rotates an element?,transform:rotate(),rotate(),transform:spin(),rotate:transform(),0
+Which CSS property scales an element?,transform:scale(),scale(),transform:zoom(),zoom(),0
+Which CSS property skews an element?,transform:skew(),skew(),transform:slant(),skew:transform(),0
+Which CSS property translates an element?,transform:translate(),translate(),transform:move(),move(),0
+Which CSS property sets the text shadow?,text-shadow,shadow,text-effect,font-shadow,0
+Which CSS property sets the word wrap behavior?,word-wrap,wrap,word-break,text-wrap,0
