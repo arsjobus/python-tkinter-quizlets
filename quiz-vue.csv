@@ -1,0 +1,99 @@
+What is Vue.js primarily used for?,Building user interfaces,Building mobile apps only,Server-side rendering only,Managing databases,0
+Vue.js is considered a __ framework?,progressive,monolithic,low-level,backend,0
+Which company created Vue.js?,Google,Facebook,Apple,Evan You,3
+Which directive is used for data binding?,v-bind,v-if,v-for,v-on,0
+Which directive handles conditional rendering?,v-if,v-bind,v-for,v-model,0
+Which directive is used to loop through items?,v-for,v-loop,v-each,v-repeat,0
+Which directive is used for two-way binding?,v-model,v-bind,v-link,v-value,0
+What is the root Vue instance option?,el,root,init,target,0
+What does the `data` option return?,an object,a function,an array,a promise,0
+Which directive listens for events?,v-on,v-if,v-bind,v-emit,0
+What is the shorthand for v-bind?,:,#,@,&,0
+What is the shorthand for v-on?,@,#,$,%,0
+Which lifecycle hook runs after the instance is created?,created,mounted,beforeMount,beforeCreate,0
+Which lifecycle hook runs after the template is mounted?,mounted,created,updated,beforeUpdate,0
+What keyword is required in Single File Components?,<template>,<body>,<view>,<script-template>,0
+Which file extension is used for Vue single-file components?,.vue,.vjs,.vuejs,.component,0
+Which CLI tool is used to scaffold Vue projects?,Vue CLI,Vue Builder,Nuxt CLI,Vitex,0
+What is the default file that initializes a Vue app?,main.js,app.js,vue.js,index.js,0
+Which method is used to create a Vue application in Vue 3?,createApp(),new Vue(),startApp(),initVue(),0
+Which Vue version introduced the Composition API?,Vue 3,Vue 1,Vue 2,Vue 4,0
+Which API allows using reactive variables in Vue 3?,ref(),reactive(),state(),model(),0
+What does the reactive() function return?,proxy object,primitive value,string,DOM element,0
+Which Composition API method is used for side effects?,watch(),reactive(),computed(),ref(),0
+Which method creates derived reactive values?,computed(),ref(),watch(),derive(),0
+Which directive shows an element only if a condition is false?,v-show="!condition",v-if="!condition",v-hide="condition",v-visible="false",0
+Which directive toggles element visibility but keeps it in the DOM?,v-show,v-if,v-else,v-hide,0
+Which directive provides an alternative condition?,v-else,v-alt,v-otherwise,v-if-else,0
+Which directive is used after a v-if block?,v-else-if,v-elif,v-next-if,v-cond,0
+How do you bind a class dynamically?,:class,class-bind,v-class,bind-class,0
+Which object contains component input values?,props,data,methods,computed,0
+Which option is used to define methods?,methods,functions,actions,ops,0
+In Vue, components must have ____,a single root element,two root elements,no template,an id attribute,0
+How do you emit an event from a child component?,this.$emit(),trigger(),dispatch(),sendEvent(),0
+Where do parent components listen for child events?,in the template,inside data,in methods,in props,0
+Which directive binds form input values?,v-model,v-bind,v-input,v-on,0
+How do you pass props to a child component?,using attributes,using events,using methods,using refs,0
+Props in Vue should be ____,one-way data down,two-way synced,no data,no bindable values,0
+Which directive stops event propagation?,@click.stop,@click.prevent,@click.block,@click.halt,0
+Which directive prevents default behavior?,@click.prevent,@click.stop,@click.default,@click.block,0
+How do you bind a style dynamically?,:style,bind-style,v-style,@style,0
+Which hook runs before a component is removed?,beforeUnmount,created,mounted,beforeMount,0
+Which hook runs after reactive data updates are applied?,updated,mounted,created,rendered,0
+Which Vue tool is used for browser debugging?,Vue DevTools,Vue Debug Panel,Chrome VueKit,Vue Toolkit,0
+Which keyword is used to expose variables from setup()?,return,export,this,expose,0
+Which API groups related logic in Vue 3?,Composition API,Options API,Logic API,Reactive API,0
+Which Vue file section holds JavaScript logic?,<script>,<logic>,<component>,<js>,0
+Which section defines the HTML structure?,<template>,<html>,<body>,<dom>,0
+Which directive binds an attribute value?,v-bind,v-attr,v-on,v-model,0
+How do you watch a reactive variable?,watch(),observe(),track(),bind(),0
+What is the virtual DOM?,lightweight copy of real DOM,the actual DOM,the browser engine,a CSS engine,0
+What is a global component?,accessible anywhere,only in parent,only in child,not allowed,0
+Vue Router is used for ____,SPA navigation,styling,backend handling,animations,0
+Which tag renders route components?,<router-view>,<route>,<router-page>,<view>,0
+Which component creates navigation links?,<router-link>,<nav-link>,<vue-link>,<to-link>,0
+Vuex is used for ____,state management,styling,routing,HTTP requests,0
+Pinia is a ____,state management library,router,UI library,testing framework,0
+Which command installs Vue?,npm install vue,npm get vue,vue init,npm build vue,0
+Which built-in component allows animations?,<transition>,<animate>,<fx>,<motion>,0
+Which directive is used inside v-for loops?,(item, index),(item-index),(loop-index),(each-index),0
+Which function unwraps a ref?,.value,get(),raw(),extract(),0
+Which operator is used in template interpolation?,{{ }},<< >>,(( )),{{{ }}},0
+Which attribute enables component communication?,props,links,attrs,data,0
+How do you import a component?,import Component from '...',use Component from '...',require Component,load Component,0
+Which lifecycle hook replaces destroyed() in Vue 3?,unmounted,removed,deleted,beforeDelete,0
+Which keyword exposes methods to templates?,return,export,methods,this,0
+Which function detects deep changes?,watch(),ref(),computed(),mount(),0
+What does v-html do?,renders raw HTML,escapes HTML,binds text,binds props,0
+What must be unique inside v-for?,key,ref,name,id,0
+How is a component registered locally?,components:{},local:{},register:{},child:{},0
+What does v-once do?,renders once and skips updates,renders twice,never renders,updates always,0
+Which variable cannot be used inside templates?,undefined refs,computed values,data properties,$refs,3
+How do you lazy load a Vue component?,defineAsyncComponent(),lazy(),async(),importLater(),0
+Which CLI command starts a Vue dev server?,npm run serve,npm start vue,vue run,serve vue,0
+What does $refs access?,DOM elements,props,computed values,Vuex state,0
+What is emitted when v-model is used?,update:modelValue,input,change,emitModel,0
+Which directive adds a key event?,@keydown,@key,@keyup.bind,@press,0
+What does keep-alive do?,caches components,deletes components,disables components,refreshes components,0
+What is a slot?,placeholder content,a variable,a method,a directive,0
+Which tag defines a named slot?,<template #name>,<slot name>,<slot#name>,<named-slot>,0
+What does provide/inject handle?,dependency injection,routing,state management,event flow,0
+How to prevent reactivity?,markRaw(),raw(),freeze(),toRaw(),0
+How to inspect raw state?,toRaw(),raw(),unreactive(),state(),0
+Which Vue tool is recommended with Vue 3?,Vite,Webpack,Gulp,Parcel,0
+What is a composable?,reusable function,file type,component,plugin,0
+Where are composables stored by convention?,/composables,/helpers,/mixins,/logic,0
+Which API replaced mixins?,Composition API,Options API,Render API,Transition API,0
+What is teleport used for?,moving DOM outside component,moving files,changing routes,copying state,0
+Which method registers a plugin?,app.use(),app.plugin(),Vue.add(),Vue.usePlugin(),0
+What is the default reactive caveat of objects?,deep reactivity,shallow reactivity,no reactivity,string-only reactivity,0
+How do you create a shallow reactive object?,shallowReactive(),reactive(),ref(),shallow(),0
+How do you create a shallow ref?,shallowRef(),ref(),shallow(),limitedRef(),0
+Which keyword is used in script setup?,<script setup>,<setup>,<composition>,<script logic>,0
+Which import is required for ref()?,import { ref } from 'vue',import ref from 'vue',import vueRef,import { reactive } from 'vue',0
+Which hook is used for DOM access?,onMounted,onCreated,onUpdated,onBeforeMount,0
+What is the minimum root element in a SFC template?,one,zero,two,any number,0
+Which directive binds text content?,v-text,v-bind,v-raw,v-model,0
+Which directive is used to show default slot content?,<slot>,<default>,<fill>,<main-slot>,0
+What is a watcher used for?,tracking data changes,styling,rendering components,fetching templates,0
+What is the purpose of v-pre?,skip compilation,force compile,reset template,hide content,0
