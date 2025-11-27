@@ -1,0 +1,101 @@
+What does SQL stand for?,Structured Query Language,Strong Question Language,Sequential Query Logic,Structured Question List,0
+Which SQL statement is used to retrieve data?,SELECT,GET,EXTRACT,TAKE,0
+Which clause is used to filter rows in SQL?,WHERE,HAVING,FILTER,ON,0
+Which keyword sorts the result set?,ORDER BY,SORT BY,ALIGN BY,GROUP BY,0
+What keyword is used to remove duplicate rows?,DISTINCT,UNIQUE,SEPARATE,NODUP,0
+Which SQL statement updates data?,UPDATE,CHANGE,MODIFY,SET,0
+Which SQL statement deletes data?,DELETE,DROP,REMOVE,ERASE,0
+Which SQL command inserts new data?,INSERT INTO,ADD NEW,PUT INTO,APPEND,0
+Which operator is used for pattern matching?,LIKE,MATCH,COMPARE,PATTERN,0
+Which wildcard matches any number of characters in LIKE?,%,_,#,*,0
+Which clause groups rows?,GROUP BY,ORDER BY,WHERE,PARTITION BY,0
+Which clause filters groups?,HAVING,WHERE,GROUP FILTER,AFTER GROUP,0
+What does the JOIN keyword do?,Combines rows from multiple tables,Deletes related rows,Creates new tables,Sorts data,0
+Which JOIN returns only matching rows?,INNER JOIN,LEFT JOIN,RIGHT JOIN,FULL JOIN,0
+Which JOIN returns all rows from the left table?,LEFT JOIN,INNER JOIN,RIGHT JOIN,FULL JOIN,0
+Which JOIN returns all rows from both tables?,FULL OUTER JOIN,LEFT JOIN,RIGHT JOIN,CROSS JOIN,0
+Which JOIN creates a Cartesian product?,CROSS JOIN,FULL JOIN,INNER JOIN,LEFT JOIN,0
+Which keyword renames a column?,AS,ALIAS,RENAME,SET,0
+Which constraint ensures uniqueness?,UNIQUE,PRIMARY,FOREIGN,NOT NULL,0
+Which constraint defines a primary key?,PRIMARY KEY,MASTER KEY,MAIN KEY,PRIMARY,0
+Which constraint prevents NULL values?,NOT NULL,NO EMPTY,NO NULL,FORCE VALUE,0
+Which constraint enforces referential integrity?,FOREIGN KEY,PRIMARY KEY,CHECK,UNIQUE,0
+Which constraint checks a condition?,CHECK,VERIFY,ASSERT,VALIDATE,0
+Which keyword adds a new column?,ALTER TABLE ADD,NEW COLUMN,MODIFY TABLE,INSERT COLUMN,0
+Which keyword removes a table?,DROP TABLE,DELETE TABLE,REMOVE TABLE,DESTROY TABLE,0
+Which command removes all rows but not structure?,TRUNCATE,DROP,DELETE,CLEAR,0
+Which keyword specifies ascending order?,ASC,UP,INC,ASCEND,0
+Which keyword specifies descending order?,DESC,DOWN,DEC,DROP,0
+Which statement creates a table?,CREATE TABLE,MAKE TABLE,BUILD TABLE,NEW TABLE,0
+Which function counts rows?,COUNT(),SUM(),TOTAL(),ROWS(),0
+Which function returns average?,AVG(),MEAN(),AVERAGE(),MID(),0
+Which function returns sum?,SUM(),ADD(),TOTAL(),AGGREGATE(),0
+Which function returns maximum?,MAX(),TOP(),GREATEST(),HIGH(),0
+Which function returns minimum?,MIN(),LOW(),LEAST(),SMALL(),0
+Which operator checks membership?,IN,CONTAINS,WITHIN,LIST,0
+Which operator checks a range?,BETWEEN,RANGE,SPAN,WITHIN,0
+Which operator means inequality?,<>,!=,==,NOT,0
+Which operator concatenates strings in SQL Server?,+,||,&,++,0
+Which operator concatenates strings in PostgreSQL?,||,+,&,$$,0
+Which clause limits returned rows?,LIMIT,ROWNUM,TOP,FETCH,0
+Which keyword retrieves only the first N rows in SQL Server?,TOP,LIMIT,FIRST,ROW,0
+Which type of subquery returns only one value?,Scalar subquery,Row subquery,Table subquery,Join subquery,0
+Which type of subquery returns one row?,Row subquery,Scalar subquery,Table subquery,Nested subquery,0
+Which type returns multiple rows?,Multiple-row subquery,Scalar subquery,Single subquery,Large subquery,0
+What is a view?,Virtual table,Temporary table,Physical table,Joined table,0
+How do you create a view?,CREATE VIEW,MAKE VIEW,NEW VIEW,BUILD VIEW,0
+Which statement removes a view?,DROP VIEW,DELETE VIEW,REMOVE VIEW,CLEAR VIEW,0
+Which index improves search speed?,B-Tree,Sorted,Hashed,Flat,0
+Which keyword creates an index?,CREATE INDEX,MAKE INDEX,NEW INDEX,SET INDEX,0
+Which keyword removes an index?,DROP INDEX,DELETE INDEX,REMOVE INDEX,CLEAR INDEX,0
+What term refers to a field with unique values?,Primary key,Foreign key,Index,Unique field,0
+What is referential integrity?,Valid foreign key relationships,Correct column names,Unique row storage,Sorted data order,0
+Which command creates a database?,CREATE DATABASE,MAKE DATABASE,NEW DB,BUILD DB,0
+Which command deletes a database?,DROP DATABASE,DELETE DATABASE,CLEAR DB,REMOVE DB,0
+What is normalization?,Organizing data to reduce redundancy,Compressing data,Encrypting data,Backing up data,0
+Which form removes repeating groups?,1NF,2NF,3NF,BCNF,0
+Which form removes partial dependencies?,2NF,1NF,3NF,BCNF,0
+Which form removes transitive dependencies?,3NF,2NF,BCNF,1NF,0
+Which form resolves anomalies using candidate keys?,BCNF,3NF,2NF,4NF,0
+Which keyword begins a transaction?,BEGIN,START,OPEN,BEGIN TRANSACTION,0
+Which keyword saves a transaction point?,SAVEPOINT,CHECKPOINT,MARK,STORE,0
+Which keyword commits a transaction?,COMMIT,SAVE,END,FINISH,0
+Which keyword undoes a transaction?,ROLLBACK,UNDO,REVERSE,CANCEL,0
+What is a trigger?,Procedure run automatically on events,Manual function,Sorting routine,Backup script,0
+How do you create a trigger?,CREATE TRIGGER,MAKE TRIGGER,NEW TRIGGER,SET TRIGGER,0
+Which statement creates a stored procedure?,CREATE PROCEDURE,MAKE PROCEDURE,NEW PROC,DEFINE PROC,0
+Which SQL clause renames a table?,RENAME TABLE,ALTER TABLE RENAME,SET TABLE NAME,CHANGE NAME,1
+Which operator checks if value is NULL?,IS NULL,=NULL,==NULL,EMPTY,0
+Which operator checks if value is NOT NULL?,IS NOT NULL,!=NULL,NOT EMPTY,NOTNULL,0
+Which keyword is used in a CASE expression?,WHEN,IF,CONDITION,ELSEIF,0
+Which clause selects only unique combinations?,DISTINCT,DUPFREE,NODUP,UNIQUE,0
+Which SQL engine uses AUTOINCREMENT?,SQLite,MySQL,PostgreSQL,Oracle,0
+Which SQL engine uses SERIAL?,PostgreSQL,MySQL,SQLite,SQL Server,0
+Which SQL engine uses IDENTITY?,SQL Server,PostgreSQL,MySQL,SQLite,0
+Which clause defines table constraints?,CONSTRAINT,RESTRICT,LIMIT,CHECKPOINT,0
+Which keyword defines default values?,DEFAULT,VALUE,INIT,SET,0
+Which data type stores text?,VARCHAR,INT,DECIMAL,DATE,0
+Which data type stores integer numbers?,INT,VARCHAR,REAL,TEXT,0
+Which data type stores dates?,DATE,DATETIME,TIME,CHAR,0
+Which keyword adds a constraint?,ADD CONSTRAINT,NEW CONSTRAINT,SET RULE,MAKE CONSTRAINT,0
+Which clause joins tables based on equality?,INNER JOIN,OUTER JOIN,CROSS JOIN,EQUIJOIN,0
+What type of join includes non-matching rows?,OUTER JOIN,INNER JOIN,CROSS JOIN,NATURAL JOIN,0
+Which join matches columns with same name?,NATURAL JOIN,LEFT JOIN,RIGHT JOIN,CROSS JOIN,0
+Which clause forces a fixed value list?,CHECK,VERIFY,SET,RESTRICT,0
+Which keyword returns current date?,CURRENT_DATE,NOW(),TODAY(),CURDATE,0
+Which keyword returns current timestamp?,CURRENT_TIMESTAMP,TIME_NOW(),NOW,DATE_TIME,0
+Which clause is evaluated first in SELECT?,FROM,SELECT,WHERE,ORDER BY,0
+Which clause is evaluated last?,ORDER BY,SELECT,WHERE,GROUP BY,0
+Which SQL statement creates a temporary table?,CREATE TEMPORARY TABLE,MAKE TEMP TABLE,NEW TEMP TABLE,TEMP TABLE,0
+Which keyword copies structure of a table?,CREATE TABLE AS,CLONE TABLE,COPY STRUCTURE,DUP TABLE,0
+Which command fully removes a column?,ALTER TABLE DROP COLUMN,DELETE COLUMN,REMOVE COL,DROP FIELD,0
+Which keyword retrieves top percent of rows in SQL Server?,TOP PERCENT,TOP %,LIMIT %,FETCH %,0
+Which SQL feature prevents dirty reads?,Isolation level,Indexing,Triggers,Constraints,0
+Which level prevents non-repeatable reads?,REPEATABLE READ,READ COMMITTED,SERIALIZABLE,READ UNCOMMITTED,0
+Which level prevents phantom reads?,SERIALIZABLE,REPEATABLE READ,READ COMMITTED,READ UNCOMMITTED,0
+Which statement copies rows from one table to another?,INSERT INTO SELECT,COPY ROWS,SELECT INTO INSERT,TRANSFER,0
+Which statement creates a backup table?,CREATE TABLE AS SELECT,CLONE DATA,BACKUP TABLE,NEW TABLE FROM,0
+Which keyword removes duplicates after UNION?,UNION,UNION ALL,UNION DISTINCT,UNIQUE UNION,0
+Which keyword keeps duplicates?,UNION ALL,UNION,JOIN ALL,MERGE ALL,0
+Which operator performs full-text search (MySQL)?,MATCH AGAINST,SEARCH TEXT,FULLTEXT,QUERY TEXT,0
+Which function returns substring?,SUBSTRING(),SUBSTR(),CUT(),EXTRACT(),0
