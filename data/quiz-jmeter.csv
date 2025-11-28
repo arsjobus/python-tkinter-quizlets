@@ -1,0 +1,93 @@
+What is the current stable version of JMeter as of 2025?,5.5,5.6.3,6.0-beta,5.4.3,1
+Which Java version is required at minimum to run JMeter 5.6.3?,Java 6,Java 7,Java 8,Java 11,2
+Which element in JMeter defines number of users and ramp-up time?,Thread Group,Test Plan,Assertion,Listener,0
+Which element type is used to send HTTP requests in JMeter?,Listener,Sampler,Timer,Config Element,1
+Which element type is used to add delays between requests?,Assertion,Timer,Listener,Controller,1
+What does a “Listener” in JMeter do?,Send requests,Configure threads,Collect and display results,Manage cookies,2
+Which element is used to manage cookies between requests?,Cookie Manager,Cache Manager,Header Manager,Response Assertion,0
+Which element allows changing request headers in JMeter?,Cache Manager,Header Manager,Timer,JSR223 Sampler,1
+Which element is used to parameterize requests with data from external file?,CSV Data Set Config,User Defined Variables,HTTP Header Manager,Cache Manager,0
+Which file extension is used for JMeter test plans?,.jmx,.jtl,.xml,.log,0
+What mode should you use for running large load tests instead of GUI?,GUI mode,Server mode,Non-GUI mode,Distributed mode,2
+Which command-line flag runs JMeter in non-GUI mode?,-n,-g,-t,-r,0
+Which file records results when you run in non-GUI mode with output file option?,.jmx,.jtl,.log,.xml,1
+Which element validates response code or content from server?,Header Manager,Post-Processor,Assertion,Timer,2
+Which type of assertion checks that response contains given string?,Response Assertion,JSON Assertion,Duration Assertion,Size Assertion,0
+Which assertion type is useful for validating JSON response bodies?,Response Assertion,XPath Assertion,JSON Assertion,Size Assertion,2
+Which Sampler in JMeter can test database queries?,JDBC Sampler,HTTP Sampler,FTP Sampler,JMS Sampler,0
+Which element allows to loop a sampler or controllers a specific number of times?,Loop Controller,If Controller,Once Only Controller,Throughput Controller,0
+Which controller executes its children only once per thread lifetime?,Loop Controller,Once Only Controller,If Controller,Transaction Controller,1
+Which JMeter controller groups samplers for logical flow without affecting thread count?,Transaction Controller,Loop Controller,Interleave Controller,Random Controller,2
+What does “ramp-up period” mean in Thread Group?,Time to start all threads,Time between requests,Test total duration,Time between loops,0
+Which mode downloads embedded resources (images, scripts) by default when HTTP Request is executed?,Ignore resources,Download resources parallel,Download resources sequentially,No resources,1
+Which config element would you use to manage cache and cookies between requests?,Cache Manager,Cookie Manager,Header Manager,User Parameters,0
+Which element allows to generate dynamic random data like timestamp, UUID in requests?,User Defined Variables,CSV Data Set Config,Function Helper,HTTP Authorization Manager,2
+Which sampler is used to test FTP servers?,JDBC Sampler,FTP Sampler,HTTP Sampler,JMS Sampler,1
+Which sampler can send HTTP POST request with JSON body?,JDBC Sampler,FTP Sampler,HTTP Sampler,JMS Sampler,2
+Which sampler tests messaging queues (JMS)?,JMS Sampler,HTTP Sampler,JDBC Sampler,FTP Sampler,0
+In distributed testing, to start remote servers you use what command?,–r –n –t –g,–n –t –r –G,–r –s –t –n,–n –J –r –t,0
+What element helps you extract values from previous response for correlation?,Regular Expression Extractor,JSON Extractor,XPath Extractor,Any of the above,3
+Which extractor is suited for XML response parsing?,JSON Extractor,Regex Extractor,XPath Extractor,CSV Data Set Config,2
+Which extractor is better for JSON responses?,XPath Extractor,JSON Extractor,CSV Data Set Config,Header Manager,1
+What is the purpose of a Timer in JMeter?,Modify headers,Delay between requests,Store cookies,Assert responses,1
+Which listener gives graphical representation of results during test run?,View Results Tree,Simple Data Writer,Aggregate Report,Backend Listener,0
+Which listener writes results to file without GUI overhead?,Simple Data Writer,View Results Tree,Graph Results,Aggregate Report,0
+Which listener shows summary statistics like min/avg/max response time?,Aggregate Report,View Results Tree,Simple Data Writer,Header Manager,0
+Which feature in 5.6.x allows using variables in GUI checkboxes (like scheduler)?,BeanShell scripting,Functions,${…} expression support,Groovy plugin,2
+Which JMeter distribution includes binaries and no installer?,Binary ZIP/TGZ,EXE installer,MSI package,docker image,0
+What is required if you need to record HTTPS sites with JMeter?,A browser,Java JDK (keytool),FTP client,No requirement,1
+Which protocol is supported by default for web testing?,FTP only,HTTP/S only,JDBC only,All protocols including HTTP, FTP, JMS, HTTP/S only,3
+What does “Throughput Controller” do in JMeter?,Control number of threads,Control percentage of executions,Track response time,Record results,1
+Which controller executes children in a random order each iteration?,Loop Controller,Random Controller,Transaction Controller,Once Only Controller,1
+What does the “Test Plan” node represent?,Start and stop of test,Overall test settings,A single request,A single thread,1
+Which element allows conditional execution of children based on expression?,If Controller,Loop Controller,Once Only Controller,Random Controller,0
+Which assertion type checks that response is received within a time limit?,Response Assertion,Size Assertion,Duration Assertion,JSON Assertion,2
+Which config element is used to set HTTP Authorization header for requests?,Header Manager,HTTP Authorization Manager,Cookie Manager,Cache Manager,1
+Which element is used to manage basic auth or digest auth credentials?,HTTP Header Manager,HTTP Authorization Manager,User Defined Variables,CSV Data Set Config,1
+What feature helps to parameterize request data across multiple threads and users?,User Defined Variables,CSV Data Set Config,Cookie Manager,Header Manager,1
+What does “Distributed Testing” mean in JMeter context?,Run multiple tests sequentially,Run tests on multiple machines simultaneously,Run tests in GUI only,Run tests without JDK,1
+Which mode is recommended when running JMeter on server or CI?,GUI mode,Non-GUI mode,Distributed GUI mode,Test fragment mode,1
+What does JTL file stand for?,JMeter Test Log,JMeter Thread List,Java Test Log,JSON Test Log,0
+Which assertion type checks the size of response? ,Response Assertion,Size Assertion,Duration Assertion,JSON Assertion,1
+Which JMeter component lets you add custom code in Groovy, Beanshell etc?,JSR223 Sampler,Timer,Listener,Cookie Manager,0
+What is the benefit of using JSR223 with Groovy over BeanShell?,Faster,Better integration,Compiled scripts,Cross-platform only,2
+Which sampler would test WebSocket connections (with plugin)?,JDBC Sampler,WebSocket Sampler,HTTP Sampler,FTP Sampler,1
+Which element would you use to pause test at end or beginning for setup/tear down?,setUp Thread Group,tearDown Thread Group,Loop Controller,Once Only Controller,0
+What is the purpose of “tearDown Thread Group”?,Run before test,Run after test,Run during test,Record results,1
+Which config element allows overriding default HTTP request settings like timeouts, proxies, base URL?,HTTP Request Defaults,Header Manager,Cache Manager,CSV Data Set Config,0
+Which JMeter built-in protocol supports database performance testing?,HTTP,JDBC,FTP,JMS,1
+What does “Ramp-Up Period = 60, Threads = 120” mean?,Start all 120 threads instantly,Start 2 threads per second over 60 seconds,Start 120 threads over 60 minutes,Start threads randomly,1
+Which file would you use to store reusable variables and configurations?,.jmx,.jtl,.properties,.log,2
+Which JMeter config file is used to customize user settings globally?,user.properties,jmeter.properties,system.properties,default.properties,0
+Which controller ensures that only one thread executes a section at a time?,Critical Section Controller,Loop Controller,Random Controller,Transaction Controller,0
+What header does HTTP Request Sampler automatically add if not specified?,Content-Length,Host,User-Agent,Accept-Encoding,1
+Which feature ensures embedded resource downloads use UTF-8 encoding by default since 5.6.x?,Default encoding setting,Header Manager,Cache Manager,Timer,0
+Which protocol can JMeter test besides HTTP and JDBC via plugins?,SMPP,SMTP,JMS,All of the above,3
+What is the primary purpose of using a Backend Listener?,Generate load,Capture network traffic,Send metrics to external system,Manage threads,2
+Which output format is best for result analysis and reporting?,GUI Live View,XML,JSON,CSV/JTL logs,3
+Which JMeter component would you use to debug variables and responses during development?,Debug Sampler,Header Manager,Cache Manager,Timer,0
+Which command-line option shows JMeter version?,--version,-v,-ver,-V,0
+Which setting defines maximum memory for JMeter in startup script?,-Xms,-Xmx,-Xmn,-Xswap,1
+Which element can maintain sessions using cookies automatically?,Cookie Manager,HTTP Cache Manager,Header Manager,User Defined Variables,0
+What is the default HTTP method for HTTP Request sampler?,POST,GET,PUT,DELETE,1
+Which listener should you avoid when running high-load tests (because it stores full responses in memory)?,View Results Tree,Simple Data Writer,Aggregate Report,Backend Listener,0
+Which element helps simulate think time between user actions?,Timer,Listener,Assertion,Controller,0
+Which controller repeats its children until a condition is met?,While Controller,Loop Controller,If Controller,Random Controller,0
+Which sampler can upload files via HTTP multipart/form-data?,HTTP Sampler,JDBC Sampler,FTP Sampler,JMS Sampler,0
+Which assertion type checks cookies returned by server?,Response Assertion,Size Assertion,Header Assertion,JSON Assertion,2
+Which config element is used to set proxy settings for all HTTP requests?,HTTP Proxy Server,Header Manager,Cache Manager,Cookie Manager,0
+What does “GUI mode” of JMeter mean?,Graphical User Interface mode,Group User Interface mode,Generic User Interface mode,Global User Interface mode,0
+Which element is used to run JS / Groovy / Beanshell code before sending request?,Pre-Processor,Post-Processor,Timer,Listener,0
+Which element is executed after sampler completes to extract or process response data?,Post-Processor,Pre-Processor,Timer,Listener,0
+Which JMeter component defines default sample timeout and other default request properties?,HTTP Request Defaults,Header Manager,Cache Manager,CSV Data Set Config,0
+Which config element can override default values for some or all samplers under it?,Config Element,User Defined Variables,Test Plan,Thread Group,0
+Which assertion fails the sampler if response has error status code (>=400)?,Response Assertion,Duration Assertion,Size Assertion,JSON Assertion,0
+Which JMeter component allows you to organize samplers but does not affect logic flow besides order?,Simple Controller,Loop Controller,Transaction Controller,Critical Section Controller,0
+Which controller ensures group of samplers are treated as a single transaction in reports?,Transaction Controller,Loop Controller,Random Controller,If Controller,0
+Which JMeter element supports parameterizing values with functions like __time, __uuid, __Random, etc.?,Function Helper,Header Manager,Timer,Assertion,0
+Which listener or reporter generates HTML report after test run?,Dashboard Reporter,View Results Tree,Simple Data Writer,Aggregate Report,0
+Which protocol is NOT supported out-of-the-box by core JMeter (without plugin)?,HTTP,JDBC,FTP,WebSocket,3
+Which element allows to assert JSON paths in JSON response?,XPath Assertion,JSON Assertion,Response Assertion,Size Assertion,1
+Which config element allows to set default content-type header for HTTP requests?,HTTP Request Defaults,Header Manager,Cache Manager,Cookie Manager,1
+Which JMeter setting controls number of retries on HTTP redirect?,Redirect Automatically flag,Retry Count property,Follow Redirects flag,Max Retries property,2
+Which JMeter listener provides data useful for time-based performance graphs (throughput over time)?,View Results Tree,Graph Results,Aggregate Report,Simple Data Writer,1
