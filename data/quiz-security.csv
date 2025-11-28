@@ -1,0 +1,98 @@
+What does CIA stand for in cybersecurity?,Confidentiality Integrity Availability,Control Inspect Analyze,Compliance Identity Access,Cybersecurity Information Audit,0
+Which type of attack floods a system with traffic?,Brute force,SQL injection,DDoS,Phishing,2
+What is the primary goal of social engineering?,Exploit software vulnerabilities,Manipulate people,Overload networks,Crack encryption,1
+What device filters traffic based on rules?,Router,Firewall,Switch,Hub,1
+Which encryption is symmetric?,RSA,AES,Diffie-Hellman,DSA,1
+What is phishing?,Network scanning,Malicious email deception,Password hashing,Packet filtering,1
+Which protocol secures web traffic?,HTTP,FTP,SSH,HTTPS,3
+What does IDS stand for?,Internal Data System,Intrusion Detection System,Internet Defense Service,Integrated Data Security,1
+What is the purpose of MFA?,Encrypt data,Improve authentication,Scan networks,Monitor logs,1
+Which malware demands payment?,Virus,Worm,Ransomware,Trojan,2
+What is the safest wireless encryption?,WEP,WPA,WPA2,WPA3,3
+Which port does HTTPS use?,20,53,443,389,2
+What is a zero-day exploit?,Already patched exploit,Publicly known flaw,Unknown vulnerability,Old virus,2
+Which attack involves injecting malicious SQL?,Cross-site scripting,Brute force,SQL injection,Man-in-the-middle,2
+What does VPN provide?,Faster internet,Encrypted tunnel,Public access,Wireless signal,1
+Which term refers to proving identity?,Authorization,Authentication,Accounting,Auditing,1
+What is least privilege?,Users have full access,Users get minimum required permissions,Admins revoke all access,Users share accounts,1
+Which is a biometric factor?,Password,Token,Fingerprint,PIN,2
+Which device prevents loops in networks?,Hub,Router,Switch with STP,Firewall,2
+What does hashing ensure?,Availability,Integrity,Authentication,Authorization,1
+Which tool captures network packets?,Nmap,Wireshark,Metasploit,Burp Suite,1
+What is shoulder surfing?,Viewing someone's screen,password guessing,DDoS attack,Keylogging,0
+Which control is a lock on a door?,Administrative,Logical,Technical,Physical,3
+What does SSO allow?,Multiple accounts required,One login for many systems,Anonymous access,Multiple passwords stored,1
+Which attack tricks DNS servers?,ARP poisoning,DNS poisoning,MITM,Port scanning,1
+What does ACL stand for?,Access Control List,Account Creation Log,Advanced Cybersecurity Level,Admin Control Layer,0
+Which protocol replaces Telnet securely?,FTP,SSH,SCP,SMTP,1
+What is RAID used for?,Network scanning,Data redundancy,Encryption,Authentication,1
+Which malware spreads without user action?,Trojan,Worm,Adware,Rootkit,1
+What does PKI stand for?,Public Key Infrastructure,Private Key Internet,Protected Key Interface,Personal Key Integration,0
+Which backup type stores all files?,Differential,Incremental,Full,Delta,2
+What is brute force?,Trying all password combinations,Phishing emails,Malware infection,Network sniffing,0
+Which policy defines acceptable system use?,DRP,BCP,AUP,SLA,2
+What is a honeypot?,Backup system,Decoy system to lure attackers,Password manager,Encryption tool,1
+What is the weakest password type?,Passphrase,Random string,Dictionary word,12-character mixed-case password,2
+Which cloud model is shared by many customers?,Public cloud,Private cloud,Community cloud,Hybrid cloud,0
+What does MFA combine?,One factor only,Password and username,Two or more factor types,Only biometrics,2
+What is sandboxing?,Encrypting files,Isolating applications,Scanning for malware,Blocking ports,1
+What is the purpose of vulnerability scanning?,Exploit systems,Patch systems,Identify weaknesses,Monitor traffic,2
+What is spear phishing?,Generic spam email,Targeted phishing attack,Phone-based scam,Wireless attack,1
+Which cryptographic principle ensures data is unchanged?,Integrity,Availability,Authorization,Accounting,0
+What is an air gap?,Password policy,Physical network isolation,Firewall rule,VPN tunnel,1
+Which attack spoofs MAC addresses?,DNS poisoning,Phishing,ARP poisoning,Brute force,2
+Which log records access attempts?,Network log,Authentication log,System log,Kernel log,1
+What is tokenization?,Replacing data with tokens,Encrypting traffic,Scanning networks,Deleting logs,0
+Which is an example of a Type II error?,False negative,True positive,False positive,True negative,2
+What is geofencing?,Location-based access control,Firewall rule,Encryption method,Password policy,0
+Which wireless attack copies an access point?,Evil twin,Bluejacking,Rogue antenna,Beacon flooding,0
+What is a cold site?,Fully equipped site,Partially equipped site,Empty recovery site,Mobile site,2
+Which term describes verifying logs are unchanged?,Hashing,Salting,Normalization,Integrity checking,3
+What is a digital signature used for?,Availability,Authentication and integrity,Confidentiality,VPN tunneling,1
+Which attack records keystrokes?,Rootkit,Spyware,Worm,Adware,1
+What is a risk?,Guaranteed loss,Possible threat event,Likelihood of success,Backdoor,1
+Which policy defines password rules?,BCP,SLA,DRP,Password policy,3
+What is a threat actor?,Firewall rule,Vulnerability finder,Entity causing harm,Mitigation tool,2
+Which attack intercepts communication?,DDoS,Man-in-the-middle,Worm,XSS,1
+What is a botnet?,Encrypted network,Zombie device network,VPN service,Malware scanner,1
+Which standard focuses on credit card security?,HIPAA,GDPR,PCI-DSS,SOX,2
+What is whitelisting?,Blocking all allowed apps,Allowing only approved apps,Allowing all apps,Tracking apps,1
+Which technique hides data in images?,Hashing,Steganography,Encryption,Obfuscation,1
+What is the purpose of incident response?,Prevent fire hazards,Respond to security events,Patch systems,Monitor bandwidth,1
+Which document defines incident steps?,SLA,IR plan,AUP,ROE,1
+What is the first IR phase?,Containment,Preparation,Eradication,Recovery,1
+Which role approves security exceptions?,CIO,Data owner,User,Technician,1
+What is the purpose of change management?,Test servers,Control modifications,Encrypt backups,Block downloads,1
+What is a privacy impact assessment?,Pen test,Risk analysis of PII,Network scan,Backup test,1
+What protocol sends email?,IMAP,SMTP,POP3,FTP,1
+What is a cipher?,Random key,Encryption algorithm,Public key,Hash value,1
+What is salting?,Adding randomness to hashes,Encrypting emails,Scanning networks,Blocking ports,0
+Which algorithm is asymmetric?,AES,3DES,RSA,Blowfish,2
+What is shadow IT?,Unapproved systems,Encrypted backups,Legacy devices,Cloud networks,0
+Which device separates networks?,Router,Switch,IDS,Modem,0
+What is log retention?,Keeping logs for a defined time,Encrypting logs,Forwarding logs,Deleting logs,0
+What is a UTM device?,Unified Threat Management,User Tracking Monitor,Universal Transfer Mode,Unique Token Manager,0
+What is patch management?,Blocking updates,Managing security updates,Network mapping,Log review,1
+What is the purpose of BCP?,Plan for business downtime,Increase profits,Encrypt storage,Test users,0
+What is data minimization?,Storing all data,Reducing collected data,Encrypting data,Deleting backups,1
+Which technique scans ports?,Wireshark,Nmap,Metasploit,Aircrack-ng,1
+What is SOAR?,Security Orchestration Automation and Response,Secure Operations and Risk,Service Operational Audit Review,System Online Authorization Report,0
+What is a Trojan?,Self-spreading worm,Malware disguised as legitimate software,Network scanner,Encryption tool,1
+Which certificate is used for code?,Root certificate,Domain cert,Wildcard cert,Code-signing certificate,3
+What is SSID?,Wireless network name,IP range,Subnet mask,Encryption key,0
+What is data classification?,Sorting data by value,Encrypting data,Compressing data,Deleting data,0
+Which disaster recovery site is fully equipped?,Cold site,Warm site,Hot site,Hybrid site,2
+What is a bot?,Automated malware,Encrypted packet,Firewall rule,Network protocol,0
+What is virtualization?,Using physical servers only,Running multiple VMs on one host,Encrypting hard drives,Testing networks,1
+What is the purpose of hashing passwords?,Speed login,Check integrity and protect passwords,Increase bandwidth,Track users,1
+Which term means removing unneeded software?,Wiping,Patching,Hardening,Cloning,2
+What does DLP prevent?,User access control,Data leakage,Service outages,Password reuse,1
+What is a certificate authority?,Signs digital certificates,Manages firewalls,Issues passwords,Monitors logs,0
+What is a VLAN?,Encrypted tunnel,Log file,Virtual network segment,Backup system,2
+Which port does DNS use?,443,53,20,143,1
+What is credential stuffing?,Phishing attack,Using leaked credentials,MITM attack,SQL attack,1
+What is mobile device management?,Encrypting servers,Managing mobile devices,Scanning wireless traffic,Running VMs,1
+What is a backdoor?,Hidden access method,Encrypted file,VPN tunnel,Keylogger,0
+Which tool is used for exploitation?,Burp Suite,Nmap,Metasploit,Wireshark,2
+What is an SLA?,Service Level Agreement,Security Log Audit,Server Lock Administration,System Lifecycle Assessment,0
+What is XSS?,Cross-site scripting,XML server sync,Cross server scanning,Xtra secure socket,0
