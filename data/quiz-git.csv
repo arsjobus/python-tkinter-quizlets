@@ -1,0 +1,94 @@
+What is Git?,A programming language,A version control system,A CI/CD platform,An IDE,1
+Who created Git?,Linus Torvalds,Bill Gates,Guido van Rossum,James Gosling,0
+Which company maintains Git?,Google,GitHub,OpenAI,Linux Foundation,3
+What type of version control system is Git?,Centralized,Distributed,Local,Hybrid,1
+Which command initializes a Git repository?,git init,git start,git create,git repo,0
+Which command clones a repository?,git copy,git clone,git pull --clone,git fetch,1
+Where is Git configuration stored globally?,~/.gitconfig,/etc/git,/usr/git/.config,~/git/global,0
+Which command stages files for commit?,git add,git stage,git push,git select,0
+Which command commits staged files?,git commit,git push,git save,git snapshot,0
+Which flag adds a commit message?,-t,-n,-m,-msg,2
+Which command shows commit history?,git log,git history,git commits,git show-log,0
+Which command shows changes in the working directory?,git diff,git changes,git status -d,git compare,0
+Which command shows repo status?,git check,git state,git status,git inspect,2
+Which command creates a new branch?,git branch,git new branch,git create-branch,git mkbranch,0
+Which command switches branches in modern Git?,git checkout,git switch,git change-branch,git swap,1
+Which command merges a branch?,git merge,git combine,git attach,git join,0
+Which command deletes a branch?,git branch -d,git delete -b,git rm branch,git branch --remove,0
+Which command downloads changes without merging?,git merge,git fetch,git pull,git update,1
+Which command downloads and merges changes?,git fetch,git pull,git get,git sync,1
+Which command pushes commits to remote?,git upload,git send,git push,git ship,2
+What is the default branch name in new Git versions?,main,master,dev,release,0
+What is a remote repository?,Local backup,Cloud copy of repo,Temporary checkout,Staging area,1
+Which command lists remotes?,git remote,git remotes,git show remotes,git list remote,0
+Which command adds a remote?,git remote add,git add remote,git connect,git attach,0
+What is the default remote name?,main,origin,upstream,master,1
+Which command removes a remote?,git remote rm,git remove remote,git delete remote,git remote del,0
+Which command renames a remote?,git remote rename,git rename remote,git remote mv,git mv remote,0
+Which command shows a single commit?,git commit --show,git view,git show,git commit --display,2
+Which command unstages a file?,git unstage,git reset HEAD <file>,git revert <file>,git checkout <file>,1
+Which command discards local file changes?,git revert file,git checkout -- <file>,git reset file,git clear file,1
+What does HEAD refer to?,Latest tag,Current branch pointer,Remote main branch,Last commit on origin,1
+Which command amends last commit?,git amend,git fix,git commit --amend,git commit --fix,2
+What is a Git blob?,Binary large object,Branch label,Backup log,Build output,0
+What does .gitignore do?,Deletes files,Protects repo,Tells Git what to ignore,Encrypts files,2
+Which command creates a tag?,git tag new,git create tag,git tag,git label,2
+What are lightweight tags?,Tags with messages,Annotated tags,Metadata-only tags,Signed tags,2
+Which command signs a tag?,git tag -s,git sign tag,git tag --sign,git tag --secure,0
+Which command lists tags?,git tag list,git tags,git list tags,git tag,3
+What does git stash do?,Deletes changes,Saves changes temporarily,Merges changes,Copies changes,1
+Which command applies stashed changes?,git stash run,git stash retrieve,git stash apply,git stash continue,2
+Which command drops a stash?,git stash drop,git stash delete,git stash rm,git stash clear-one,0
+Which command clears all stashes?,git stash clear,git stash wipe,git stash remove-all,git stash purge,0
+Which command reverts a commit by making a new commit?,git undo,git rollback,git revert,git reset --inverse,2
+Which command resets to a previous commit hard?,git revert --hard,git reset --hard,git restore --hard,git checkout --hard,1
+Which reset mode preserves working directory?,--hard,--clean,--soft,--mixed,3
+Which reset mode keeps staging area?,--soft,--mixed,--hard,--local,0
+Which command re-applies commits on top of another base?,git redo,git reapply,git rebase,git restructure,2
+Which command resolves merge conflicts?,git fix,git resolve,Manual editing,git solve,2
+What symbol denotes conflict in files?,>>>>,<<<<<<,======,All of these,3
+Which command aborts a rebase?,git rebase stop,git rebase abort,git rebase cancel,git undo rebase,1
+Which command continues a rebase?,git continue rebase,git rebase continue,git rebase resume,git rebase go,1
+Which command squashes commits?,git squash,git commit --squash,Using interactive rebase,git compress,2
+Which command clones with submodules?,git clone --with-submodules,git clone --submodules,git clone --recurse-submodules,git clone --modules,2
+What is a bare repository?,Repo without working directory,Repo without branches,Repo without commits,Temporary repo,0
+Which command creates a bare repo?,git init --bare,git bare,git init-bare,git create --bare,0
+What is a pull request?,Git command,GitHub feature for merging,Branch backup,Conflict resolver,1
+Which hashing algorithm does Git use?,SHA-512,SHA-1,MD5,SHA-256,1
+What is an orphan branch?,No parent commit,No remote,Hidden branch,Tag-only branch,0
+What is a detached HEAD?,HEAD points to commit,HEAD missing,HEAD on remote,HEAD deleted,0
+Which command bisects commits?,git divide,git bisect,git search,git history find,1
+What is git cherry-pick used for?,Copy branch,Apply specific commit,Delete commit,Tag commit,1
+Which command moves a file?,git move,git mv,git rename,git file mv,1
+Which command deletes a file?,git del,git remove,git rm,git delete,2
+Which command lists branches?,git list,git branches,git branch list,git branch,3
+Which command shows remote branches?,git branch -r,git branch --remote,git remote branches,git branches -r,0
+Which command lists local + remote branches?,git branch -l,git branch -a,git branch --all,git all branches,1
+Which command shows current branch?,git branch --now,git status,git show-branch,git current,1
+Which command shows configured username?,git whoami,git config user.name,git name,git show user,1
+Which command shows configured email?,git config email,git config user.mail,git config user.email,git mail show,2
+Which command sets username?,git set user,git config user,git config user.name "Name",git change username,2
+Which command stages all changes?,git add .,git add all,git stage .,git add --all,0
+Which command restores a file?,git fix file,git restore,git file restore,git revert file,1
+Which command restores staging area?,git restore --stage,git restore --staged,git unstaging,git reset staged,1
+Which command converts HTTPS remote to SSH?,git remote ssh,git switch ssh,git remote set-url,git remote update --ssh,2
+Which command archives a repository?,git archive,git zip,git pack,git bundle create,0
+What is git gc?,Garbage collector,Git cleaner,Git commit tool,Git compress tool,0
+What is git fsck?,File sync,Integrity checker,Error reporter,Branch validator,1
+Which command bundles a repo?,git compress,git bundle,git pack,git archive create,1
+Which command deletes untracked files?,git wipe,git clean,git purge,git rm untracked,1
+Which command verifies signatures?,git verify,git trust,git verify-commit,git commit-check,2
+Which command shows blame info?,git who,git blame,git history blame,git line,1
+Which command shows file content at commit?,git view file,git show,git cat,git open,1
+Which command shows tags reachable from HEAD?,git tag head,git describe,git tag --show-head,git show-tags,1
+Which command checks out previous commit?,git back,git restore prev,git checkout <commit>,git go,2
+Which command creates a worktree?,git worktree add,git add worktree,git new worktree,git branch worktree,0
+Which command lists worktrees?,git worktrees,git worktree list,git list wt,git wt,1
+Which command prunes stale remote branches?,git prune,git remote prune origin,git remote clean,git rm stale,1
+Which command applies patch?,git patch,git apply,git merge patch,git import patch,1
+Which command exports a patch?,git make patch,git patch export,git format-patch,git patch create,2
+What does fast-forward merge mean?,New merge commit,No merge needed,Rebase required,Conflict-free merge,1
+What does .gitattributes do?,Locks files,Defines file behaviors,Tracks attributes,Stores permissions,1
+What does .gitkeep do?,Required by Git,Used to keep empty folders,Tracks folders,Ignores files,1
+What is git-lfs?,Large File Support,Log File System,Local File Sync,Large Folder Sync,0
+What is shallow clone?,Clone without history,Fork clone,Slow clone,Full clone,0

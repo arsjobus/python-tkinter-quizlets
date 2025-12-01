@@ -1,0 +1,99 @@
+What is Robot Framework?,A programming language,A keyword-driven automation framework,A CI/CD tool,A unit testing library,1
+Who originally developed Robot Framework?,Google,IBM,Nokia,Microsoft,2
+Robot Framework is mainly written in what language?,Java,Python,C#,Go,1
+Which file extension is commonly used for Robot Framework test suites?,.yaml,.robot,.json,.config,1
+Which of the following is a core characteristic of Robot Framework?,Behavior-driven,Keyword-driven,Model-driven,Mutation-driven,1
+Which command runs a Robot Framework test suite?,robot run,robot,rf run,robot.exe,1
+Which command re-runs failed Robot tests?,robot --failed,robot --rerunfailed,robot --retry,robot --run failed,1
+Where are Robot Framework test results stored by default?,/results,/output,/log,/reports,1
+What file is generated as the main Robot Framework execution output?,output.xml,results.json,report.pdf,stats.txt,0
+Which file provides the HTML report of test execution?,log.html,report.html,results.html,summary.html,1
+Which file provides execution logs?,report.html,log.html,output.xml,stdout.txt,1
+Which library is built-in to Robot Framework?,SeleniumLibrary,RequestsLibrary,Collections,AppiumLibrary,2
+What is a Robot Framework test case based on?,Variables,Keywords,Classes,Methods,1
+Which syntax is correct for calling a keyword?,Keyword Name  arg,Run Keyword(arg),Call Keyword(arg),keyword(arg),0
+How do you define a variable in Robot Framework?,${var}= value,@var=value,$var=value,${var}: value,0
+Which variable type uses @{}?,Scalar,List,Dictionary,Environment,1
+Which variable type uses &{}?,Scalar,List,Dictionary,Dynamic,2
+Which setting defines libraries?,*** Variables ***,*** Settings ***,*** Keywords ***,*** Tasks ***,1
+Which setting imports external resources?,Library,Resource,Variables,Suite Setup,1
+Which setting defines test documentation?,Metadata,Documentation,Suite Docs,Test Docs,1
+Which setting runs before each test?,Suite Setup,Test Setup,Task Setup,Case Begin,1
+Which setting runs after each test?,Suite Teardown,Test Teardown,Suite End,Task End,1
+Which library is used for browser automation?,SeleniumLibrary,SSHLibrary,OperatingSystem,Collections,0
+Which keyword opens a browser using SeleniumLibrary?,Start Chrome,Open Browser,Launch Web,Browser Open,1
+Which keyword inputs text into an element?,Write Text,Input Text,Set Field,Type Text,1
+Which keyword clicks on an element?,Press,Mouse Click,Click Element,Click Target,2
+Which keyword waits for an element?,Wait Until Exists,Wait For Element,Wait Until Element Is Visible,Element Wait,2
+Which keyword closes the current browser?,Close Window,Close Browser,Exit Browser,Stop Browser,1
+What is a Resource file used for?,Storing logs,Exporting test steps,Sharing keywords/variables,Managing sessions,2
+Which syntax imports a Resource file?,Resource file.py,Resource: file.robot,Resource  file.robot,Import Resource file,2
+How do you comment a line in Robot Framework?,// comment,# comment,; comment,* comment,1
+What is the default separator in Robot Framework?,Colon,Comma,Two or more spaces,Tab,2
+Which of these supports BDD syntax?,Given/When/Then,Do/Else,BDD Library,Gherkin extension,0
+Which keyword logs text to report?,Write Log,Log,Console Log,Print,1
+Which keyword logs text to terminal output?,Log,Log To Console,Write,Console Output,1
+Robot Framework supports which type of execution?,Parallel only,Sequential only,Both sequential and parallel,None,2
+Which tool enables parallel Robot execution?,SeleniumGrid,Pabot,Docker,Parabot,1
+Which keyword is used to fail a test?,Throw,Fatal,Fail,Abort,2
+Which keyword continues test execution after failure?,Continue On Fail,Run Keyword And Continue On Failure,Proceed If Fail,Ignore Fail,1
+Which keyword runs only if a condition matches?,Run If,Run Keyword If,If Keyword,Conditional Run,1
+Which keyword evaluates Python expressions?,Execute Python,Run Script,Evaluate,Python Eval,2
+Which keyword imports variables from a Python file?,Import Variables,Load Vars,Variables From Python,Get Variables,0
+Which file format can Robot Framework parse?,.yaml,.txt,.robot,All of the above,3
+Which selector type does SeleniumLibrary support?,ID only,CSS and XPath only,XPath only,Multiple selectors (id, css, xpath),3
+Which of these is part of Robot Framework ecosystem?,AppiumLibrary,RequestsLibrary,SeleniumLibrary,All of the above,3
+Which library handles REST API testing?,APILibrary,RequestsLibrary,SeleniumLibrary,NetLibrary,1
+Which keyword sends a GET request?,GET,Send GET,Get Request,Request GET,2
+Which library is used for SSH automation?,SSHLibrary,NetworkLibrary,TerminalLibrary,RemoteLibrary,0
+Which keyword opens SSH connection?,SSH Open,Open Connection,Open SSH,Start SSH,1
+Which keyword closes SSH connection?,Close Connection,SSH Close,Disconnect,Close SSH,0
+Which library interacts with the operating system?,OperatingSystem,FileSystem,NativeLibrary,SystemRunner,0
+Which keyword creates a directory?,Make Dir,Create Directory,Directory Create,New Folder,1
+Which keyword removes a directory?,Delete Folder,Remove Directory,Delete Dir,Remove Folder,1
+Which library handles CSV and table data?,Collections,DataLibrary,TableLibrary,OperatingSystem,0
+Which keyword creates a list?,List Create,Create List,Make List,New List,1
+Which keyword checks list length?,Get Length,Length Should Be,List Length,Check Length,1
+Which keyword merges dictionaries?,Combine Dictionaries,Merge Dicts,Combine Vars,Join Dictionaries,1
+Which library interacts with desktop UI?,AppiumLibrary,DesktopLibrary,AutoItLibrary,UISpyLibrary,2
+Which library supports mobile automation?,SeleniumLibrary,AppiumLibrary,RequestsLibrary,SSHLibrary,1
+Which keyword starts an Appium session?,Start Session,Open Application,Launch App,Appium Open,1
+Which file contains reusable variables or keywords?,Resource file,Helper file,Config file,Container file,0
+Which option sets a variable from command line?,--setvar,--variable,--var,--set,1
+Which option outputs results to a specific folder?,--logdir,--dir,--outputdir,--results,2
+Which option enables dry-run mode?,--dry,--dryrun,--testonly,--norun,1
+Which tag marks test cases?,@tag,Tag:,[] tags,[Tags],3
+Which keyword checks if two values are equal?,Equal,Match,Should Be Equal,Assert Equal,2
+Which keyword checks if value contains substring?,Should Include,Should Contain,Contains,Has Text,1
+Which keyword checks if element exists?,Element Exists,Page Should Contain Element,Should Find Element,Element Should Exist,1
+Which keyword waits until keyword fails?,Wait For Failure,Wait Until Keyword Fails,Wait For Error,Wait Until Fails,1
+Which keyword repeats a keyword multiple times?,Repeat,Loop Keyword,Repeat Keyword,Repeat Until,2
+Which keyword runs another keyword with timeout?,Run With Timeout,Timeout Keyword,Wait Keyword,Run Keyword With Timeout,3
+Which is a valid test status?,FAILED,CRITICAL,RETRY,NONE,0
+Robot Framework supports which output format?,XML only,HTML only,XML + HTML,PDF only,2
+Which REPL tool is used to explore Robot Framework keywords?,robotrepl,rfrepl,rfconsole,robot console,1
+Which editor plugin offers Robot Framework support?,VSCode extensions,Word plugin,Notepad++,Android Studio plugin,0
+Which cloud platform supports Robot executions?,AWS Device Farm,BrowserStack,Sauce Labs,All of the above,3
+Which section defines custom keywords?,*** Custom ***,*** Keywords ***,*** MyKeywords ***,*** Scripts ***,1
+Which file is executed first?,Suite Setup,Test Setup,Library initialization,Variable loading,3
+Which keyword sets global variables?,Set Global Variable,Set Test Variable,Set Suite Variable,Set World Variable,0
+Which keyword sets variables visible only in a test?,Set Global Variable,Set Suite Variable,Set Test Variable,Set Local Variable,2
+Robot Framework supports which test formats?,Robot + REST only,Robot only,Robot + Python + JSON + YAML,Only Python,2
+Which model does Robot Framework follow?,Page Object,Keyword-driven,Command-driven,Specification-driven,1
+Which version control is commonly used?,Git,SVN,Mercurial,None,0
+Which CI tools integrate with Robot Framework?,Jenkins,GitHub Actions,GitLab CI,All of the above,3
+Which command shows Robot Framework version?,robot --show,robot --version,robot version,rf --version,1
+Which report viewer is commonly used?,RobotViewer,Allure,TestNG,JUnitUI,1
+Which library handles database testing?,DatabaseLibrary,DBConn,SQLLibrary,DataSQL,0
+Which keyword connects to a database?,Database Connect,Connect,Connect To Database,SQL Connect,2
+Which keyword executes SQL queries?,Execute SQL,Run SQL,Execute Query,SQL Run,0
+Which keyword closes database connection?,Close DB,Disconnect From Database,DB Close,End DB,1
+Which keyword chooses a random item?,Random Item,Get Random,Get Random Choice,Pick Random,2
+Which built-in library works with XML?,XmlLibrary,BuiltIn XML,XML,Collections,2
+Which built-in library handles string operations?,Strings,TextOps,String,StringLibrary,2
+Which keyword converts text to lowercase?,To Lower,Lowercase,String To Lower,Convert Lower,2
+Which keyword returns current date?,Get Time,Get Current Date,Current Date,Now,1
+Which keyword sleeps for a number of seconds?,Sleep,Wait,Snooze,Pause,0
+Which output viewer formats logs?,LogFormatter,Rebot,RobotReport,LogBuilder,1
+Which command merges result files?,Merge,Rebot --merge,Robot Merge,rebot merge,1
+Which extension adds VSCode keyword completion?,RobotCode,RFHelper,KeywordMagic,RobotPlus,0
