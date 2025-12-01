@@ -15,7 +15,7 @@ class FlashcardApp:
         self.questions = []
         self.current_question = 0
         self.score = 0
-        self.answered = False  # Track if user has selected an answer
+        self.answered = False
 
         # Load CSV
         self.load_csv()
@@ -30,16 +30,19 @@ class FlashcardApp:
         if len(self.questions) > MAX_QUESTIONS:
             self.questions = self.questions[:MAX_QUESTIONS]
 
+        # Set up answer variable *before* creating RadioButtons
+        self.var = tk.StringVar()
+        self.var.set("-1")  # Prevents Tkinter from using "None"
+        self.var.trace("w", self.check_answer)
+
         # GUI elements
         self.question_label = tk.Label(
             root, text="", wraplength=700, font=("Arial", 16), justify="center"
         )
         self.question_label.pack(pady=20)
 
-        self.var = tk.StringVar()
-        self.var.trace("w", self.check_answer)  # Call check_answer when value changes
+        # Radio buttons
         self.options = []
-
         for i in range(4):
             rb = tk.Radiobutton(
                 root, text="", variable=self.var, value=str(i),
@@ -75,20 +78,26 @@ class FlashcardApp:
         if self.current_question < len(self.questions):
             q = self.questions[self.current_question]
             self.question_label.config(text=f"Q{self.current_question + 1}: {q[0]}")
-            self.var.set(None)
+
+            # Reset selection safely
+            self.var.set("-1")
             self.answered = False
             self.feedback_label.config(text="")
+
             for i in range(4):
                 self.options[i].config(text=q[i+1], state="normal")
         else:
             self.show_score()
 
     def check_answer(self, *args):
-        if self.answered or self.var.get() == "":
-            return  # Only check once per question
+        val = self.var.get()
 
+        # Ignore invalid states
+        if self.answered or val in ("", None, "None", "-1"):
+            return
+
+        selected = int(val)
         q = self.questions[self.current_question]
-        selected = int(self.var.get())
         correct = int(q[5])
 
         if selected == correct:
@@ -96,12 +105,13 @@ class FlashcardApp:
             self.score += 1
         else:
             self.feedback_label.config(
-                text=f"Incorrect! Correct answer: {q[correct+1]}",
+                text=f"Incorrect! Correct answer: {q[correct + 1]}",
                 fg="red"
             )
 
         self.answered = True
-        # Disable further changes after selecting
+
+        # Disable after answering
         for rb in self.options:
             rb.config(state="disabled")
 
